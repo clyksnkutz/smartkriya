@@ -1,20 +1,19 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { ProcessLineSvg, RightArrowFour } from '../svg';
 import process_icon_1 from '@/assets/img/icon/process/process-icon-1.svg';
 import process_icon_2 from '@/assets/img/icon/process/process-icon-2.svg';
 import process_icon_3 from '@/assets/img/icon/process/process-icon-3.svg';
+import baby_1 from '@/assets/img/shape/process/process-3-baby-1.png';
+import baby_2 from '@/assets/img/shape/process/process-3-baby-2.png';
+import football from '@/assets/img/shape/process/process-3-football-1.png';
 import process_ground from '@/assets/img/shape/process/process-3-ground.png';
+import heart_1 from '@/assets/img/shape/process/process-3-heart-1.png';
 import leaf_1 from '@/assets/img/shape/process/process-3-leaf-1.svg';
 import leaf_2 from '@/assets/img/shape/process/process-3-leaf-2.png';
 import leaf_3 from '@/assets/img/shape/process/process-3-leaf-3.png';
 import leaf_4 from '@/assets/img/shape/process/process-3-leaf-4.png';
 import leaf_5 from '@/assets/img/shape/process/process-3-leaf-5.png';
-import baby_1 from '@/assets/img/shape/process/process-3-baby-1.png';
-import baby_2 from '@/assets/img/shape/process/process-3-baby-2.png';
-import heart_1 from '@/assets/img/shape/process/process-3-heart-1.png';
-import football from '@/assets/img/shape/process/process-3-football-1.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ProcessLineSvg, RightArrowFour } from '../svg';
 
 const shapeData = [
    { cls: "tp-process-3-shape-2", src: process_ground },
@@ -34,23 +33,37 @@ const processData = [
       id: 1,
       borderCls: "pink-border",
       icon: process_icon_1,
-      title: "We care about kids",
+      title: "Skill Assesment",
       description: "Lorem ipsum dolor sit amet, mea ei viderer probatus.",
    },
    {
       id: 2,
       borderCls: "gblue-border",
       icon: process_icon_2,
-      title: "Building life-long learners",
+      title: "Customize Learning Path",
       description: "Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur.",
    },
    {
       id: 3,
       borderCls: "lyellow-border",
       icon: process_icon_3,
-      title: "Helping struggling students",
+      title: " Interactive Training Sessions",
       description: "Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur.",
-   }
+   },  
+   {
+      id: 4,
+      borderCls: "gblue-border",
+      icon: process_icon_2,
+      title: "Customize Learning Path",
+      description: "Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur.",
+   },
+   {
+      id: 5,
+      borderCls: "gblue-border",
+      icon: process_icon_2,
+      title: "Customize Learning Path",
+      description: "Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur.",
+   },
 ];
 
 export default function ProcessOne() {

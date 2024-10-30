@@ -1,7 +1,6 @@
 import AdmissionArea from "@/components/admission/admission-area";
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import CampusChooseArea from "@/components/campus/campus-choose-area";
-import ProcessTwo from "@/components/process/process-two";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -25,7 +24,6 @@ export default function UniversityAdmissionOverviewPage() {
       {/* counter area start */}
       {/* <CounterThree /> */}
       {/* counter area end */}
-      <ProcessTwo/>
 
       {/* admission area start */}
       <AdmissionArea />
@@ -38,9 +36,6 @@ export default function UniversityAdmissionOverviewPage() {
       {/* admission apply area start */}
       {/* <AdmissionApplyArea /> */}
       {/* admission apply area end */}
-      {/* <ProcessOne/> */}
-      {/* <ProcessThree/> */}
-
     </main>
   );
 }

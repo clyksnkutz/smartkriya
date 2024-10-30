@@ -12,7 +12,15 @@ export default function AdmissionArea() {
               className="tp-admission-overview-heading wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <h3 className="tp-admission-overview-title">Our Student Programs</h3>
+                     <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="tp-tutor-section text-center mb-100">
+              <h3 className="tp-tutor-section-title">
+                Our Student <span> Program</span>
+              </h3>
+            </div>
+          </div>
+        </div>
             </div>
           <div className="col-lg-8">
             <div
@@ -32,13 +40,13 @@ export default function AdmissionArea() {
               />
             </div>
             <div className="tp-admission-overview-btn mt-50 flex flex-col items-center">
-                <Link className="tp-btn" href="/">
+                {/* <Link className="tp-btn" href="/">
                   Take Accessment <br />
                   Test{" "}
                   <span>
                     <RightArrowSeven />
                   </span>
-                </Link>
+                </Link> */}
               </div>
           </div>
           <div className="col-lg-4">

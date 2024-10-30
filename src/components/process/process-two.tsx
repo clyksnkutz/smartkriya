@@ -3,56 +3,63 @@ import Link from "next/link";
 const applicationProcess = [
     {
       step: 1,
-      title: "Complete Application Form",
-      description: `The University of Acadia uses Apply web for the processing of graduate applications. <br> Proceed to the link below to create an Apply web account, submit an application review a <br> submitted application, and access post-submission functionality.`,
-      linkText: "Application Form",
-      linkHref: "/university-application-form"
+      title: "Assessment of Current Skills",
+      description: '',
+      linkText: "Take Test",
+      linkHref: "/"
     },
     {
       step: 2,
-      title: "Confirmation of Application",
-      description: `Admissions requirements vary by program. Please consult the <a href="#"> program website </a> to verify which information is required to complete the application.`,
+      title: "Customised Learning Path",
+      description: ''
     },
     {
       step: 3,
-      title: "Application Review",
-      description: `QRC will review your application to confirm you meet our requirements. If so, you will 
-      then be asked to complete an interview as part of the review process.`
+      title: "AInteractive Training Sessions",
+      description: ''
     },
     {
       step: 4,
-      title: "Application Interview",
-      description: `Interviews are usually completed over the phone with a member of the Academic Team.
-      The purpose of the interview is to get to know you better, hear about your future plans, understand
-      why you are interested in the course.`
+      title: "Real world case studies",
+      description: ''
     },
     {
       step: 5,
-      title: "Payment of Fees",
-      description: `At the end of the application, you will be required to pay the registration fee and the 
-      testing fee before continuing to the next step.`
+      title: "Mock Interviews",
+      description: ''
+    },
+    {
+      step: 6,
+      title: "Placement Assistance",
+      description: ''
     }
   ];
   
 
 export default function ProcessTwo() {
   return (
-    <section className="tp-apply-process-area grey-bg pb-60">
+    <section className="tp-apply-process-area  pt-30 pb-30">
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-8">
           <div id="down" className="tp-apply-process-wrapper">
-            <h3 className="tp-apply-process-title">The Application Process</h3>
+          <div className="col-lg-12">
+            <div className="tp-tutor-section text-center mb-25">
+              <h3 className="tp-tutor-section-title">
+                Our<span> Training</span>&nbsp;Methodology
+              </h3>
+            </div>
+          </div>
 
             {applicationProcess.map((step, index) => (
-              <div key={index} className="tp-apply-process-box">
-                <h4 className="tp-apply-process-subtitle">
+              <div key={index} className="tp-apply-process-box pb-5">
+                <h4 className="tp-apply-process-subtitle mp-5">
                   <span>{step.step}</span>{step.title}
                 </h4>
                 <p dangerouslySetInnerHTML={{ __html: step.description }}></p>
 
                 {step.linkText && step.linkHref && (
-                  <Link className="tp-btn mt-30" href={step.linkHref}>
+                  <Link className="tp-btn mt-0" href={step.linkHref}>
                     {step.linkText}
                   </Link>
                 )}
