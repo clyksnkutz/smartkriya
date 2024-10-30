@@ -93,7 +93,7 @@ const menu_data:IMenu[] = [
 	 {
 		id:5,
 		title:'Contact',
-		link:'#',
+		link:'/contact',
 		// dropdown_menus:[
 		// 	{id:1,title:"Blog 3 Column", link:"/blog-stories" },
 		// 	{id:2,title:"Blog Grid Sidebar", link:"/blog-stories-sidebar" },
