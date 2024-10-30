@@ -4,104 +4,104 @@ const menu_data:IMenu[] = [
     {
         id:1,
         title:'Home',
-        link:'#',
-		dropdown_menus:[
-			// { id: 1, title: "About", link: "/about" },
-			{ id: 1, title: "About", link: "/university-about" },
-			{ id: 2, title: "About Us", link: "/university-program" },
-			{ id: 3, title: "Vision", link: "/university-program" },
-			{ id: 4, title: "Mission", link: "/course-with-filter" },
-			// { id: 5, title: "Off-campus learning", link: "/course-with-filter" },
-			// { id: 7, title: "Faculty", link: "/university-leadership" },
-		]
+        link:'/',
+		// dropdown_menus:[
+		// 	{ id: 1, title: "About", link: "/about" },
+		// 	{ id: 1, title: "About", link: "/university-about" },
+		// 	{ id: 2, title: "About Us", link: "/university-program" },
+		// 	{ id: 3, title: "Vision", link: "/university-program" },
+		// 	{ id: 4, title: "Mission", link: "/course-with-filter" },
+		// 	{ id: 5, title: "Off-campus learning", link: "/course-with-filter" },
+		// 	{ id: 7, title: "Faculty", link: "/university-leadership" },
+		// ]
      },
 	 {
 		id:2,
-		title:'About',
-		link:'#',
-		dropdown_menus:[
-			{ id: 1, title: "Mission & values", link: "/university-mission" },
-			{ id: 2, title: "Undergraduate", link: "/university-program" },
-			// { id: 3, title: "Graduate Program", link: "/university-program" },
-			// { id: 4, title: "Schools", link: "/university-program" },
-			// { id: 5, title: "Online Education", link: "/course-with-filter" },
-			// { id: 6, title: "Off-campus learning", link: "/course-with-filter" },
-			// { id: 7, title: "Faculty", link: "/university-leadership" },
-		]
+		title:'For Students',
+		link:'/university-admission-overview',
+		// dropdown_menus:[
+		// 	{ id: 1, title: "Mission & values", link: "/university-mission" },
+		// 	{ id: 2, title: "Undergraduate", link: "/university-program" },
+		// 	{ id: 3, title: "Graduate Program", link: "/university-program" },
+		// 	{ id: 4, title: "Schools", link: "/university-program" },
+		// 	{ id: 5, title: "Online Education", link: "/course-with-filter" },
+		// 	{ id: 6, title: "Off-campus learning", link: "/course-with-filter" },
+		// 	{ id: 7, title: "Faculty", link: "/university-leadership" },
+		// ]
 	 },
 	 {
 		id:3,
-		title:'Students',
+		title:'For Colleges',
 		link:'#',
-		dropdown_menus:[
-			{id:1,title:"Overview", link: "/university-admission-overview" },
-			{id:2,title:"How to Apply", link: "/university-apply" },
-			{id:3,title:"Tuition & Fees", link: "/university-tuition-fees" },
-			{id:4,title:"Financial Aid", link: "/university-financial" },
-			{id:5,title:"Dates & Deadlines", link: "/university-deadlines" },
-			{id:6,title:"Schedule a Tour", link: "/university-schedule" },
-		]
+		// dropdown_menus:[
+		// 	{id:1,title:"Overview", link: "/university-admission-overview" },
+		// 	{id:2,title:"How to Apply", link: "/university-apply" },
+		// 	{id:3,title:"Tuition & Fees", link: "/university-tuition-fees" },
+		// 	{id:4,title:"Financial Aid", link: "/university-financial" },
+		// 	{id:5,title:"Dates & Deadlines", link: "/university-deadlines" },
+		// 	{id:6,title:"Schedule a Tour", link: "/university-schedule" },
+		// ]
 	 },
 	 {
 		id:4,
-		title:'Pages',
+		title:'For Corporates',
 		link:'#',
-		pages_dropdown:[
-			{
-				id:1,
-				title: "About",
-				dropdown_menus: [
-					{id:1, title: "About Us", link: "/about" },
-					{id:2, title: "University About", link: "/university-about" },
-					{id:3, title: "Campus", link: "/university-campus" },
-					{id:4, title: "Mission & Values", link: "/university-mission" },
-					{id:5, title: "History", link: "/university-history" },
-					{id:6, title: "Our Leadership", link: "/university-leadership" },
-				],
-			},
-			{
-				id:2,
-				title: "Get Started",
-				dropdown_menus: [
-					{id:1, title: "Events", link: "/event" },
-					{id:2, title: "Event Details", link: "/event-details" },
-					{id:3, title: "Instructor", link: "/instructor" },
-					{id:4, title: "Profile", link: "/my-profile" },
-					{id:5, title: "Become a Instructor", link: "/become-instructor" },
-					{id:6, title: "Maintenance", link: "/up-coming" },
-					{id:7, title: "Contact Us", link: "/contact" },
-					{id:8, title: "Membership plans", link: "/membership-plans" },
-					{id:9, title: "FAQs", link: "/faq" },
-					{id:10, title: "Privacy Policy", link: "/privacy-policy" },
-					{id:11, title: "404 Page", link: "/not-found" },
-				],
-			},
-			{
-				id:3,
-				title:'Shop',
-				dropdown_menus: [
-					{id:1,title:"Shop", link: "/shop-grid" },
-					{id:2,title:"Single Product", link: "/shop-details/1" },
-					{id:3,title:"Cart Page", link: "/cart" },
-					{id:4,title:"Wishlist page", link: "/wishlist" },
-					{id:5,title:"My Account", link: "/my-account" },
-					{id:6,title:"Login & Register", link: "/login" },
-				]
-			}
-		]
+		// pages_dropdown:[
+		// 	{
+		// 		id:1,
+		// 		title: "About",
+		// 		dropdown_menus: [
+		// 			{id:1, title: "About Us", link: "/about" },
+		// 			{id:2, title: "University About", link: "/university-about" },
+		// 			{id:3, title: "Campus", link: "/university-campus" },
+		// 			{id:4, title: "Mission & Values", link: "/university-mission" },
+		// 			{id:5, title: "History", link: "/university-history" },
+		// 			{id:6, title: "Our Leadership", link: "/university-leadership" },
+		// 		],
+		// 	},
+		// 	{
+		// 		id:2,
+		// 		title: "Get Started",
+		// 		dropdown_menus: [
+		// 			{id:1, title: "Events", link: "/event" },
+		// 			{id:2, title: "Event Details", link: "/event-details" },
+		// 			{id:3, title: "Instructor", link: "/instructor" },
+		// 			{id:4, title: "Profile", link: "/my-profile" },
+		// 			{id:5, title: "Become a Instructor", link: "/become-instructor" },
+		// 			{id:6, title: "Maintenance", link: "/up-coming" },
+		// 			{id:7, title: "Contact Us", link: "/contact" },
+		// 			{id:8, title: "Membership plans", link: "/membership-plans" },
+		// 			{id:9, title: "FAQs", link: "/faq" },
+		// 			{id:10, title: "Privacy Policy", link: "/privacy-policy" },
+		// 			{id:11, title: "404 Page", link: "/not-found" },
+		// 		],
+		// 	},
+		// 	{
+		// 		id:3,
+		// 		title:'Shop',
+		// 		dropdown_menus: [
+		// 			{id:1,title:"Shop", link: "/shop-grid" },
+		// 			{id:2,title:"Single Product", link: "/shop-details/1" },
+		// 			{id:3,title:"Cart Page", link: "/cart" },
+		// 			{id:4,title:"Wishlist page", link: "/wishlist" },
+		// 			{id:5,title:"My Account", link: "/my-account" },
+		// 			{id:6,title:"Login & Register", link: "/login" },
+		// 		]
+		// 	}
+		// ]
 	 },
 	 {
 		id:5,
-		title:'Blog',
+		title:'Contact',
 		link:'#',
-		dropdown_menus:[
-			{id:1,title:"Blog 3 Column", link:"/blog-stories" },
-			{id:2,title:"Blog Grid Sidebar", link:"/blog-stories-sidebar" },
-			{id:3,title:"Blog List Sidebar", link:"/blog-list" },
-			{id:4,title:"Blog Standard", link:"/blog-standard" },
-			{id:5,title:"Blog Details", link:"/blog-details/1" },
-			{id:6,title:"Blog Details Full Width", link:"/blog-details-full-width/1" },
-		]
+		// dropdown_menus:[
+		// 	{id:1,title:"Blog 3 Column", link:"/blog-stories" },
+		// 	{id:2,title:"Blog Grid Sidebar", link:"/blog-stories-sidebar" },
+		// 	{id:3,title:"Blog List Sidebar", link:"/blog-list" },
+		// 	{id:4,title:"Blog Standard", link:"/blog-standard" },
+		// 	{id:5,title:"Blog Details", link:"/blog-details/1" },
+		// 	{id:6,title:"Blog Details Full Width", link:"/blog-details-full-width/1" },
+		// ]
 	 },
 
 ];

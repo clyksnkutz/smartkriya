@@ -25,7 +25,7 @@ const tutorFeatures = [
 
 export default function TutoringFeatures() {
   return (
-    <section className="tutor-area grey-bg pb-80">
+    <section className="tutor-area grey-bg pb-80 pt-30">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
@@ -37,6 +37,7 @@ export default function TutoringFeatures() {
           </div>
         </div>
         <div className="row">
+          
           {tutorFeatures.map((feature) => (
             <div className="col-lg-6" key={feature.id}>
               <div className="tp-tutor-item text-center mb-30">

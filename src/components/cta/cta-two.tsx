@@ -22,8 +22,8 @@ export default function CtaTwo() {
                 </span>
                 Now{" "}
               </h2>
-              {/* <p>Your Bridge from Campus to Successful Careers</p>
-              <div className="tp-cta-2-form">
+              <p>Your Bridge from Campus to Successful Careers</p>
+              {/* <div className="tp-cta-2-form">
                 <form action="#">
                   <span>
                     <EmailTwo />

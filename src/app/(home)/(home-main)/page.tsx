@@ -1,9 +1,9 @@
 import AboutOne from '@/components/about/about-one';
 import CtaTwo from '@/components/cta/cta-two';
-import CtaTwoVision from "@/components/cta/cta-two-vision";
-import EventArea from '@/components/event/event-area';
+import CtaTwoVision from '@/components/cta/cta-two-vision';
+import TutoringFeatures from '@/components/feature/tutoring-features';
 import HeroAreaOne from '@/components/hero-area/hero-area-one';
-import MissionAreaTwo from '@/components/mission/mission-area-2';
+import ProcessThree from '@/components/process/process-three';
 import ProgramArea from '@/components/program/program-area';
 import ServiceOne from '@/components/service/service-one';
 import { Metadata } from 'next';
@@ -27,7 +27,7 @@ export default function HomePage() {
       {/* service area end */}
 
       <CtaTwoVision/>
-      <MissionAreaTwo/>
+      {/* <MissionAreaTwo/> */}
 
       {/* about area start */}
       <AboutOne/>
@@ -44,7 +44,7 @@ export default function HomePage() {
 
       
       {/* event area start */}
-      <EventArea/>
+      {/* <EventArea/> */}
       {/* event area end */}
 
       {/* testimonial area start */}
@@ -58,6 +58,13 @@ export default function HomePage() {
       {/* instagram area start */}
       {/* <InstagramArea/> */}
       {/* instagram area end */}
+      <TutoringFeatures/>
+
+      {/* <AdmissionArea /> */}
+
+      <ProcessThree/>
+
+
 
       {/* cta area start */}
       <CtaTwo/>

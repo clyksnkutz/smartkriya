@@ -1,7 +1,4 @@
-import AdmissionArea, {
-  AdmissionApplyArea,
-  AdmissionCtaArea,
-} from "@/components/admission/admission-area";
+import AdmissionArea from "@/components/admission/admission-area";
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import CampusChooseArea from "@/components/campus/campus-choose-area";
 import { Metadata } from "next";
@@ -33,11 +30,11 @@ export default function UniversityAdmissionOverviewPage() {
       {/* admission area end */}
 
       {/* admission cta area start */}
-      <AdmissionCtaArea />
+      {/* <AdmissionCtaArea /> */}
       {/* admission cta area end */}
 
       {/* admission apply area start */}
-      <AdmissionApplyArea />
+      {/* <AdmissionApplyArea /> */}
       {/* admission apply area end */}
     </main>
   );

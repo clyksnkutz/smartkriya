@@ -6,16 +6,16 @@ export default function CtaTwoVision() {
     <section
     className="cta-area tp-cta-bg grey-bg"
     data-background="assets/img/cta/cta-bg-1.jpg"
-    style={{ backgroundImage: "url(/assets/img/cta/cta-bg-1-green.jpg)" , padding:'0'}}
+    style={{ backgroundImage: "url(/assets/img/cta/cta-bg-1-blue.jpg)" , padding:'0'}}
   >
       <div className="container ">
         <div className="row justify-content-center">
           <div className="col-xxl-8 col-lg-10">
             <div className="tp-cta-2-wrapper text-center">
-              <h3 className="tp-cta-2-title">
-                Our{' '}
+              <h4 className="tp-cta-2-title">
+                Your{' '}
                 <span>
-                  Vision
+                  BRIDGE &nbsp;
                   <Image
                     className="tp-underline-shape-12 wow bounceIn"
                     data-wow-duration="1.5s"
@@ -23,42 +23,10 @@ export default function CtaTwoVision() {
                     src={shape_underline}
                     alt="shape-underline"
                   />
-                </span><br/><p></p>
-                <h3>Your Bridge from Campus to Successful Careers</h3>
-                {/* Now{" "} */}
-              </h3>
-              {/* <p>Your Bridge from Campus to Successful Careers</p>
-              <div className="tp-cta-2-form">
-                <form action="#">
-                  <span>
-                    <EmailTwo />
-                  </span>
-                  <input type="text" placeholder="Enter your email address" />
-                  <div className="tp-cta-2-btn">
-                    <button className="tp-btn-round">Subscribe!</button>
-                  </div>
-                </form>
-              </div>
-              <div className="tp-cta-2-info-list">
-                <span>
-                  <span>
-                    <CheckSvg />
-                  </span>
-                  Easy to Access
-                </span>
-                <span>
-                  <span>
-                    <CheckSvg />
-                  </span>
-                  No Credit card
-                </span>
-                <span>
-                  <span>
-                    <CheckSvg />
-                  </span>
-                  85,000 student onboard with us
-                </span>
-              </div> */}
+                </span>from campus to careers </h4><br/>
+                {/* <h3>SmartKriya is committed to bridging the gap between academic education and industry needs</h3> */}
+              
+              
             </div>
           </div>
         </div>
