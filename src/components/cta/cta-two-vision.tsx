@@ -6,14 +6,14 @@ export default function CtaTwoVision() {
     <section
     className="cta-area tp-cta-bg grey-bg"
     data-background="assets/img/cta/cta-bg-1.jpg"
-    style={{ backgroundImage: "url(/assets/img/cta/cta-bg-1-green.jpg)" }}
+    style={{ backgroundImage: "url(/assets/img/cta/cta-bg-1-green.jpg)" , padding:'0'}}
   >
-      <div className="container">
+      <div className="container ">
         <div className="row justify-content-center">
           <div className="col-xxl-8 col-lg-10">
             <div className="tp-cta-2-wrapper text-center">
               <h3 className="tp-cta-2-title">
-                Smartkriya{' '}
+                Our{' '}
                 <span>
                   Vision
                   <Image

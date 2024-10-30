@@ -34,11 +34,11 @@ const imgStyle:CSSProperties = {
 
 export default function AboutOne() {
   return (
-    <section className="about-area tp-about-bg grey-bg pt-105">
+    <section className="about-area tp-about-bg grey-bg pt-25 pb-0">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6">
-                    <div className="tp-about-wrap mb-60 wow fadeInLeft" data-wow-delay=".3s">
+                    <div className="tp-about-wrap mb-10 wow fadeInLeft" data-wow-delay=".3s">
                     <div className="tp-about-thumb-wrapper">
                         <div className="tp-about-thumb-1">
                             <Image src={thumb_1} alt="about-thumb" style={imgStyle}/>
@@ -69,7 +69,7 @@ export default function AboutOne() {
                     <div className="tp-about-wrapper mb-60 wow fadeInRight" data-wow-delay=".3s">
                     <div className="tp-section mb-40">
                         {/* <h5 className="tp-section-subtitle">About SMARTKRIYA</h5> */}
-                        <h3 className="tp-section-title mb-30">A few words <br/> about  
+                        <h3 className="tp-section-title mb-30">About 
                             <span> Smartkriya <ShapeLine/> </span>
                         </h3>
                         <p>At SmartKriya, we turn potential into performance. Our industry-aligned training programs prepare students for the jobs of today and the careers of tomorrow.</p>

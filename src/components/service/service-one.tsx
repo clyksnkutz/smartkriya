@@ -40,7 +40,7 @@ export default function ServiceOne() {
   return (
     <section
       className="service-area tp-service-bg"
-      style={{ backgroundImage: `url(/assets/img/bg/services-bg-green.jpg)` }}
+      style={{ backgroundImage: `url(/assets/img/bg/services-bg-green.jpg)`, padding:'0' }}
     >
       <div className="container">
         <div className="row">
@@ -71,7 +71,7 @@ export default function ServiceOne() {
                   </div>
                 </div>
                 <div className="tp-service-content">
-                  <p>{item.text}</p>
+                  <p className="text-sm">{item.text}</p>
                 </div>
               </div>
             </div>

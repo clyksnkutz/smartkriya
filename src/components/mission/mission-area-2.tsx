@@ -11,7 +11,7 @@ export default function MissionAreaTwo() {
                 <div className="tp-mission-warp pr-75">
                     <div className="tp-mission-heading">
                     {/* <h3 className="tp-mission-title">Smartkriya<br/> Mission</h3> */}
-                    <h3 className="tp-school-4-title">Smartkriya <span>Mission
+                    <h3 className="tp-school-4-title">Our <span>Mission
                               <svg xmlns="http://www.w3.org/2000/svg" width="120" height="9" viewBox="0 0 120 9" fill="none">
                                  <path fillRule="evenodd" clipRule="evenodd" d="M115.442 8.25039C64.7892 -2.54947 20.433 3.78533 4.88329 8.17023C3.53609 8.55013 1.62363 8.4481 0.611686 7.94234C-0.400258 7.43658 -0.128479 6.71861 1.21872 6.33871C18.3618 1.5045 65.3347 -5.06747 118.455 6.25855C119.92 6.57094 120.434 7.27006 119.601 7.82009C118.769 8.37012 116.907 8.56277 115.442 8.25039Z" fill="#161613" />
                               </svg>
@@ -28,7 +28,7 @@ export default function MissionAreaTwo() {
             <div className="col-lg-6">
                 <div className="tp-mission-wrapper">
                     <div className="tp-mission-desc">
-                    <p>SmartKriya is committed to bridging the gap between academic education and industry demands by:</p>
+                    <p className='text-lg'>SmartKriya is committed to bridging the gap between academic education and industry demands by:</p>
                     <p>Providing training in new-age skills for non-tech careers<br/><br/>
                     - Fostering an ecosystem of practical learning and innovation for professional growth.<br/>
                     - Partnering with industry leaders to ensure our curriculum remains at the forefront of industry needs.<br/>

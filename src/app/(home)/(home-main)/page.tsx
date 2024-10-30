@@ -1,10 +1,13 @@
 import AboutOne from '@/components/about/about-one';
 import CtaTwo from '@/components/cta/cta-two';
+import CtaTwoVision from "@/components/cta/cta-two-vision";
 import EventArea from '@/components/event/event-area';
 import HeroAreaOne from '@/components/hero-area/hero-area-one';
+import MissionAreaTwo from '@/components/mission/mission-area-2';
 import ProgramArea from '@/components/program/program-area';
 import ServiceOne from '@/components/service/service-one';
 import { Metadata } from 'next';
+
 
 
 
@@ -22,6 +25,9 @@ export default function HomePage() {
       {/* service area start */}
       <ServiceOne/>
       {/* service area end */}
+
+      <CtaTwoVision/>
+      <MissionAreaTwo/>
 
       {/* about area start */}
       <AboutOne/>
