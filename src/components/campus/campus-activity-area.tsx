@@ -4,29 +4,40 @@ import { UpArrowTwo } from "../svg";
 const activities = [
   {
     id: 1,
-    title: "Athletics & Fitness",
+    title: "Ready-to-Deploy Talent",
     icon: "/assets/img/campus/campus/ball.svg",
     delay: ".3s",
-    items: ["Fitness", "Athletics", "Pilates", "Boxing"],
+    items: ["Trained to your requirements", "AAccess to a pool of job ready candidates",],
   },
   {
     id: 2,
-    title: "Student Clubs",
+    title: "Cost-Effective Recruitment",
     icon: "/assets/img/campus/campus/ball.svg",
     delay: ".5s",
     items: [
-      "Special Interest Club",
-      "Health And Wellness Club",
-      "Art Club",
-      "Music Club",
+      "Reduce training time and costs",
+      "Improve retention rates",
     ],
   },
   {
     id: 3,
-    title: "Student Activities",
+    title: "Increased productivity",
     icon: "/assets/img/campus/campus/ball.svg",
     delay: ".7s",
-    items: ["Yoga Classes", "Basketball", "Football", "Athletics"],
+    items: [
+      "Improved workflow",
+       "Efficient deployment of new recruits", 
+      ],
+  },
+  {
+    id: 4,
+    title: "Customised Training Programs",
+    icon: "/assets/img/campus/campus/ball.svg",
+    delay: ".7s",
+    items: [
+      "Tailored to your organisation",
+       "Flexible training for existing employees", 
+      ],
   },
 ];
 
@@ -38,14 +49,14 @@ export default function CampusActivityArea() {
           <div className="col-lg-12">
             <div className="tp-campus-activity-heading mb-70">
               <h3 className="tp-campus-activity-title">
-                Build lifelong friendships with students <br />
-                who share your interests, passions, and perspectives{" "}
+                Why partner with us
+                {" "}
               </h3>
             </div>
           </div>
 
           {activities.map((activity, index) => (
-            <div className="col-lg-4 col-md-6" key={index}>
+            <div className="col-lg-6 col-md-6" key={index}>
               <div
                 className={`tp-campus-activity-content wow fadeInUp`}
                 data-wow-delay={activity.delay}
