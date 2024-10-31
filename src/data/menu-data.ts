@@ -45,7 +45,7 @@ const menu_data:IMenu[] = [
 	 {
 		id:4,
 		title:'For Corporates',
-		link:'/university-campus'
+		link:'/university-campus',
 		// pages_dropdown:[
 		// 	{
 		// 		id:1,
