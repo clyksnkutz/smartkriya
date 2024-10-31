@@ -14,7 +14,7 @@ export default function UniversityCampusPage() {
   return (
     <main>
       {/* breadcrumb area start */}
-      <BreadcrumbTwo title="Corporates" subtitle="For" />
+      <BreadcrumbTwo title="Corporates" subtitle="Overview" />
       {/* breadcrumb area end */}
 
       <CampusStudentArea/>
