@@ -19,15 +19,15 @@ const menu_data:IMenu[] = [
 		id:2,
 		title:'For Students',
 		link:'/university-admission-overview',
-		dropdown_menus:[
-			{ id: 1, title: "Mission & values", link: "/university-admission-overview" },
+		// dropdown_menus:[
+		// 	{ id: 1, title: "Mission & values", link: "/university-mission" },
 		// 	{ id: 2, title: "Undergraduate", link: "/university-program" },
 		// 	{ id: 3, title: "Graduate Program", link: "/university-program" },
 		// 	{ id: 4, title: "Schools", link: "/university-program" },
 		// 	{ id: 5, title: "Online Education", link: "/course-with-filter" },
 		// 	{ id: 6, title: "Off-campus learning", link: "/course-with-filter" },
 		// 	{ id: 7, title: "Faculty", link: "/university-leadership" },
-		]
+		// ]
 	 },
 	 {
 		id:3,
@@ -46,19 +46,19 @@ const menu_data:IMenu[] = [
 		id:4,
 		title:'For Corporates',
 		link:'/university-campus',
-		pages_dropdown:[
-			{
-				id:1,
-				title: "About",
-				dropdown_menus: [
-					{id:1, title: "About Us", link: "/university-campus" },
+		// pages_dropdown:[
+		// 	{
+		// 		id:1,
+		// 		title: "About",
+		// 		dropdown_menus: [
+		// 			{id:1, title: "About Us", link: "/about" },
 		// 			{id:2, title: "University About", link: "/university-about" },
 		// 			{id:3, title: "Campus", link: "/university-campus" },
 		// 			{id:4, title: "Mission & Values", link: "/university-mission" },
 		// 			{id:5, title: "History", link: "/university-history" },
 		// 			{id:6, title: "Our Leadership", link: "/university-leadership" },
-				],
-			},
+		// 		],
+		// 	},
 		// 	{
 		// 		id:2,
 		// 		title: "Get Started",
