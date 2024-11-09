@@ -26,7 +26,7 @@ const imgStyle:CSSProperties = {
     height:'auto'
 }
 
-export default function AboutOne() {
+export default function AboutOneApproach() {
   return (
     <section className="about-area tp-about-bg grey-bg pt-25 pb-0">
         <div className="container">
@@ -36,7 +36,7 @@ export default function AboutOne() {
                     <div className="tp-section text-center mb-40">
                         {/* <h5 className="tp-section-subtitle">About SMARTKRIYA</h5> */}
                         <h3 className="tp-section-title mb-30">Our&nbsp;
-                            <span> Vision   
+                            <span> Approach   
                                 {/* <Image
                     className="tp-underline-shape-12 wow bounceIn"
                     data-wow-duration="1.5s"
@@ -46,7 +46,7 @@ export default function AboutOne() {
                   />  */}
                   </span>
                         </h3>
-                        <h4>Transforming today's students into tomorrow's professionals</h4>
+                        <h4>Customised curriculum aligned with industry needs with Hands-on, practical training methodologies that focus on four key areas.</h4>
                     </div>
 
                     </div>

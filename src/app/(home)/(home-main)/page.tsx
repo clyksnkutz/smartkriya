@@ -1,6 +1,7 @@
 import AboutOne from '@/components/about/about-one';
+import AboutOneApproach from '@/components/about/about-one-approach';
+import AboutOneMission from '@/components/about/about-one-mission';
 import CtaTwo from '@/components/cta/cta-two';
-import CtaTwoVision from '@/components/cta/cta-two-vision';
 import TutoringFeatures from '@/components/feature/tutoring-features';
 import HeroAreaOne from '@/components/hero-area/hero-area-one';
 import ProcessThree from '@/components/process/process-three';
@@ -26,11 +27,13 @@ export default function HomePage() {
       <ServiceOne/>
       {/* service area end */}
 
-      <CtaTwoVision/>
+      {/* <CtaTwoVision/> */}
       {/* <MissionAreaTwo/> */}
 
       {/* about area start */}
       <AboutOne/>
+      <AboutOneMission/>
+      <AboutOneApproach/>
       {/* about area end */}
 
       {/* counter area start */}

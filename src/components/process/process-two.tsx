@@ -4,9 +4,9 @@ const applicationProcess = [
     {
       step: 1,
       title: "Assessment of Current Skills",
-      description: '',
-      linkText: "Take Test",
-      linkHref: "/"
+      description: ''
+      // linkText: "Take Test",
+      // linkHref: "/"
     },
     {
       step: 2,

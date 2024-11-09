@@ -26,17 +26,18 @@ const imgStyle:CSSProperties = {
     height:'auto'
 }
 
-export default function AboutOne() {
+export default function AboutOneMission() {
   return (
-    <section className="about-area tp-about-bg grey-bg pt-25 pb-0">
+    <section className="about-area tp-about-bg  pt-25 pb-0">
         <div className="container">
             <div className="row">
+
                 <div className="col-lg-12 justify-content-center">
                 <div className="tp-about-wrapper mb-60 wow fadeInRight" data-wow-delay=".3s">
                     <div className="tp-section text-center mb-40">
                         {/* <h5 className="tp-section-subtitle">About SMARTKRIYA</h5> */}
-                        <h3 className="tp-section-title mb-30">Our&nbsp;
-                            <span> Vision   
+                        <h3 className="tp-section-title mb-30">Our &nbsp;
+                            <span> Mission   
                                 {/* <Image
                     className="tp-underline-shape-12 wow bounceIn"
                     data-wow-duration="1.5s"
@@ -46,12 +47,14 @@ export default function AboutOne() {
                   />  */}
                   </span>
                         </h3>
-                        <h4>Transforming today's students into tomorrow's professionals</h4>
+                        <h4>SmartKriya is committed to bridging the gap between academic education and industry needs</h4>
                     </div>
 
                     </div>
+
+
+
                 </div>
-  
             </div>
         </div>
     </section>

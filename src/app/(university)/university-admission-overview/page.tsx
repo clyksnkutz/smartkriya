@@ -14,7 +14,7 @@ export default function UniversityAdmissionOverviewPage() {
       {/* breadcrumb area start */}
       <BreadcrumbTwo
         title="Students"
-        subtitle=" Overview"
+        subtitle=" For"
       />
       {/* breadcrumb area end */}
 

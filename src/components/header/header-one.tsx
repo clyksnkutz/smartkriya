@@ -1,4 +1,4 @@
-import logo from "@/assets/img/logo/logo-smartkriya-big.png";
+import logo from "@/assets/img/logo/logo-big.png";
 import Image from "next/image";
 import Link from "next/link";
 import HeaderStickyWrapper from "./header-sticky-provider/header-sticky-wrapper";
