@@ -32,7 +32,7 @@ const menu_data:IMenu[] = [
 	 {
 		id:3,
 		title:'For Colleges',
-		link:'#',
+		link:'/university-program',
 		// dropdown_menus:[
 		// 	{id:1,title:"Overview", link: "/university-admission-overview" },
 		// 	{id:2,title:"How to Apply", link: "/university-apply" },
