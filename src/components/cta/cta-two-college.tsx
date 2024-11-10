@@ -16,7 +16,7 @@ export default function CtaTwoCollege() {
               <p>Partner with us</p>
               <div className="tp-hero-btn">
                         <Link className="tp-btn" href="/">
-                          connect with us
+                          Contact us
                           <span>
                             <RightArrow/>
                           </span>
