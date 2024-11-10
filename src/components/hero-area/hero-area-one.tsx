@@ -1,9 +1,7 @@
 'use client';
-import Link from "next/link";
 import { EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
-import { RightArrow } from "../svg";
 
 // 
 const heroSliderData = [
@@ -56,14 +54,14 @@ export default function HeroAreaOne() {
                       <h2 className="tp-hero-title">
                         {item.title}
                       </h2>
-                      <div className="tp-hero-btn">
+                      {/* <div className="tp-hero-btn">
                         <Link className="tp-btn" href="/">
                           Learn More
                           <span>
                             <RightArrow/>
                           </span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

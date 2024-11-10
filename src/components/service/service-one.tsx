@@ -15,18 +15,21 @@ const service_data = [
     icon: ser_icon_1,
     title: "For Corporates",
     text: "Ready-to-deploy talent to your future work force.",
+    link:"/for-corporates",
   },
   {
     id: 2,
     icon: ser_icon_2,
     title: "For  Colleges",
     text: "Prepare students for the jobs of today and the careers of tomorrow.",
+    link: "/for-colleges",
   },
   {
     id: 3,
     icon: ser_icon_3,
     title: "For Students",
     text: "We don't just train you - we connect you directly with employers!",
+    link: "/for-students",
   },
   // {
   //   id: 4,
@@ -40,7 +43,7 @@ export default function ServiceOne() {
   return (
     <section
       className="service-area tp-service-bg"
-      style={{ backgroundImage: `url(/assets/img/bg/services-bg-green.jpg)`, padding:'0' }}
+      style={{ backgroundImage: `url(/assets/img/bg/services-smart-bg.jpg)`, padding:'0' }}
     >
       <div className="container">
         <div className="row">
@@ -58,12 +61,13 @@ export default function ServiceOne() {
                   </div>
                   <h4 className="tp-service-title">
                     <Link
-                      href="/university-about"
+                      href={item.link}
                       dangerouslySetInnerHTML={{ __html: item.title }}
                     ></Link>
                   </h4>
                   <div className="tp-service-btn">
-                    <Link href="/university-about">
+                    <Link 
+                    href={item.link}>
                       <span>
                         <RightArrowTwo />
                       </span>
@@ -71,7 +75,7 @@ export default function ServiceOne() {
                   </div>
                 </div>
                 <div className="tp-service-content">
-                  <p className="text-sm">{item.text}</p>
+                  <h5 className="text-sm">{item.text}</h5>
                 </div>
               </div>
             </div>
