@@ -6,24 +6,38 @@ import { useState } from "react";
 const planData = [
    {
       id: 1,
-      title: "Athletics",
-      description: "Athletics",
-      image: "/assets/img/bg/plan/plan-4-bg-1.jpg",
-      link: "/university-campus",
+      title: "Partnership Discussion",
+      description: "Meet with us",
+      image: "/assets/img/bg/plan/partnership.jpg",
+      link: "/",
    },
    {
       id: 2,
-      title: "Faculty and <br/> staff",
-      description: "Meet our team",
-      image: "/assets/img/bg/plan/plan-4-bg-2.jpg",
-      link: "/university-leadership",
+      title: "Need Analysis",
+      description: "Discuss and analyze",
+      image: "/assets/img/bg/plan/analyze.jpg",
+      link: "/",
    },
    {
       id: 3,
-      title: "Contact Us",
-      description: "Get in touch",
-      image: "/assets/img/bg/plan/plan-4-bg-3.jpg",
-      link: "/contact",
+      title: "Customised Program Design",
+      description: "Create and customize",
+      image: "/assets/img/bg/plan/implement2.jpg",
+      link: "/",
+   },   
+   {
+      id: 4,
+      title: "Implementation",
+      description: "Implement and Invoke",
+      image: "/assets/img/bg/plan/implement.jpg",
+      link: "/",
+   },
+   {
+      id: 5,
+      title: "Ongoing Support & Evaluation",
+      description: "Support and evaluvate",
+      image: "/assets/img/bg/plan/support.jpg",
+      link: "/",
    },
 ];
 
@@ -33,13 +47,13 @@ export default function PlanArea() {
       <section className="plan-area tp-plan-4-wrap fix">
          <div className="container">
             <div className="row">
-               <div className="col-lg-3">
+               {/* <div className="col-lg-3"> */}
                   <div className="tp-plan-4-section">
-                     <span>Visit Barry!</span>
-                     <h3 className="tp-plan-4-section-title">Plan Your Meeting With Us</h3>
-                  </div>
+                     {/* <span>Visit S!</span> */}
+                     <h3 className="tp-plan-4-section-title">How It Works</h3>
+                  {/* </div> */}
                </div>
-               <div className="col-lg-9">
+               <div className="col-lg-12">
                   <div className="tp-plan-4-wrapper">
                      <div className="row">
                         {planData.map((item) => (

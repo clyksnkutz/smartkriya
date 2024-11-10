@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { Location } from "../svg";
 import shape_1 from "@/assets/img/campus/campuses-shape-1.jpg";
 import shape_2 from "@/assets/img/campus/campuses-shape-2.jpg";
+import Image from "next/image";
 import Link from "next/link";
+import { Location } from "../svg";
 
 // nav items
 const navItems = [
@@ -94,16 +94,15 @@ export default function AboutCampus() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <div
               className="tp-about-campus-tab wow fadeInUp"
               data-wow-delay=".3s"
             >
               <div className="tp-about-campus-heading">
-                <h4 className="tp-about-campus-title">Campuses</h4>
+                <h4 className="tp-about-campus-title">At SmartKriya</h4>
                 <p>
-                  Acadia University has five campuses, which are located in the
-                  most exclusive areas of Moscow, Saint Petersburg and Tashkent.
+                We turn potential into performance. Our industry-aligned training programs prepare students for the jobs of today and the careers of tomorrow.
                 </p>
               </div>
               <ul
@@ -130,7 +129,7 @@ export default function AboutCampus() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-7">
             <div
               className="tab-content wow fadeInUp"
               data-wow-delay=".5s"
@@ -164,7 +163,7 @@ export default function AboutCampus() {
                         <a href="#">{tab.location}</a>
                       </div>
                       <div className="tp-about-campus-btn">
-                        <Link className="tp-btn" href="/university-campus">
+                        <Link className="tp-btn" href="/">
                           Find out More
                         </Link>
                       </div>

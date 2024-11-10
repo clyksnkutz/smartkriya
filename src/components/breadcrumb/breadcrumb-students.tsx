@@ -7,7 +7,7 @@ type IProps = {
     admission?: boolean;
 }
 
-export default function BreadcrumbTwo({ title, subtitle,admission }: IProps) {
+export default function BreadcrumbStudents({ title, subtitle,admission }: IProps) {
   return (
     <section className="tp-breadcrumb__area pt-160 pb-150 p-relative z-index-1 fix">
       <div

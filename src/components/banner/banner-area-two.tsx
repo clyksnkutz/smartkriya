@@ -3,19 +3,19 @@ import Link from "next/link";
 const banners = [
   {
     id: 1,
-    background: "/assets/img/banner/banner-5-bg-1.jpg",
+    background: "/assets/img/bg/plan/partnership.jpg",
     spanText: "Claim your",
-    title: "Free 7 days Pass",
-    description: "Enjoy a workout on us! You will be happy for sure.",
-    buttonText: "Get started",
-    buttonClass: "tp-btn-5",
+    title: "Start transforming your students future",
+    // description: "Enjoy a workout on us! You will be happy for sure.",
+    // buttonText: "Get started",
+    // buttonClass: "tp-btn-5",
   },
   {
     id: 2,
-    background: "/assets/img/banner/banner-5-bg-2.jpg",
+    background: "/assets/img/bg/services-4-bg.jpg",
     spanText: "Call Us",
     title: "402 911 2804",
-    description: "If we can help you on your journey! Or check out our FAQ’s",
+    // description: "If we can help you on your journey! Or check out our FAQ’s",
     buttonText: "CONTACT US",
     buttonClass: "tp-btn-4",
   },
@@ -43,7 +43,7 @@ export default function BannerAreaTwo() {
                       banner.title
                     )}
                   </h2>
-                  <p>{banner.description}</p>
+                  {/* <p>{banner.description}</p> */}
                   <div className="tp-banner-5-btn">
                     <Link className={banner.buttonClass} href="/contact">
                       {banner.buttonText}
