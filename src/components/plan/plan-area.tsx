@@ -1,5 +1,4 @@
 'use client';
-import Link from "next/link";
 import { useState } from "react";
 
 
@@ -29,7 +28,7 @@ const planData = [
       id: 4,
       title: "Implementation",
       description: "Implement and Invoke",
-      image: "/assets/img/bg/plan/implement.jpg",
+      image: "/assets/img/bg/plan/implement2.jpg",
       link: "/",
    },
    {
@@ -57,8 +56,8 @@ export default function PlanArea() {
                   <div className="tp-plan-4-wrapper">
                      <div className="row">
                         {planData.map((item) => (
-                           <div key={item.id} className="col-md-4">
-                              <Link onMouseEnter={() => setActiveId(item.id)} href={item.link} className={`tp-plan-4-item ${activeId === item.id ? "active" : ""}`}>
+                           <div key={item.id} className="col-md-4 mb-15">
+                              <div onMouseEnter={() => setActiveId(item.id)} className={`tp-plan-4-item ${activeId === item.id ? "active" : ""}`}>
                                  <div className="tp-plan-4-bg" style={{ backgroundImage: `url(${item.image})` }}></div>
                                  <div className="tp-plan-4-content d-flex align-items-center justify-content-center">
                                     <div className="tp-plan-4-box text-center">
@@ -67,7 +66,7 @@ export default function PlanArea() {
                                        <p>{item.description}</p>
                                     </div>
                                  </div>
-                              </Link>
+                              </div>
                            </div>
                         ))}
                      </div>

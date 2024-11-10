@@ -1,4 +1,4 @@
-import icon_1 from "@/assets/img/icon/service/service-5-icon-1.svg";
+import icon_1 from "@/assets/img/icon/tutor/smart-icon-2.svg";
 import Image from "next/image";
 
 const service_data = [
@@ -34,7 +34,7 @@ const service_data = [
 
 export default function ServiceThree() {
   return (
-    <section className="service-area tp-service-5-wrap mb-105">
+    <section className="service-area tp-service-5-wrap">
 
         <div className="container">
             <div className="row">
@@ -55,8 +55,8 @@ export default function ServiceThree() {
             <div key={item.id} className="col-lg-6 col-md-6">
               <div className="tp-service-5-item text-center">
                 <div className="tp-service-5-icon">
-                  <span>
-                    <Image src={item.icon} alt={item.title} />
+                  <span >
+                    <Image src={item.icon} alt={item.title} width={70} height={70} />
                   </span>
                 </div>
                 <div className="tp-service-5-content">

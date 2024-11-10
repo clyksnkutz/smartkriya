@@ -696,11 +696,11 @@
             }
             &:hover {
                 &::before {
-                    background-color: var(--tp-theme-4);
+                    background-color: #73c6c0;
                     top: 10px;
                     bottom: 10px;
                     height: calc(100% - 20px);
-                    border-color: var(--tp-theme-4);
+                    border-color: #73c6c0;
                 }
                 & span ,
                 & p {

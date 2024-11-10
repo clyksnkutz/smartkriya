@@ -1,4 +1,4 @@
-import heading_shape from '@/assets/img/shape/service/services-shape-2.png';
+// import heading_shape from '@/assets/img/shape/service/services-shape-2.png';
 import Image from "next/image";
 
 
@@ -39,7 +39,7 @@ export default function ServiceTwo() {
                   <div className="tp-section p-relative mb-45 text-center">
                      <h4 className="tp-section-title-white">Our College Partnership Model</h4>
                      <div className="tp-service-3-heading">
-                        <Image src={heading_shape} alt="heading-shape" />
+                        {/* <Image src={heading_shape} alt="heading-shape" /> */}
                      </div>
                   </div>
                </div>

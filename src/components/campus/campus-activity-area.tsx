@@ -1,18 +1,17 @@
 import Image from "next/image";
-import { UpArrowTwo } from "../svg";
 
 const activities = [
   {
     id: 1,
     title: "Ready-to-Deploy Talent",
-    icon: "/assets/img/campus/campus/ball.svg",
+    icon: "/assets/img/icon/tutor/smart-icon-2.svg",
     delay: ".3s",
-    items: ["Trained to your requirements", "AAccess to a pool of job ready candidates",],
+    items: ["Trained to your requirements", "Access to a pool of job ready candidates",],
   },
   {
     id: 2,
     title: "Cost-Effective Recruitment",
-    icon: "/assets/img/campus/campus/ball.svg",
+    icon: "/assets/img/icon/tutor/smart-icon-2.svg",
     delay: ".5s",
     items: [
       "Reduce training time and costs",
@@ -22,7 +21,8 @@ const activities = [
   {
     id: 3,
     title: "Increased productivity",
-    icon: "/assets/img/campus/campus/ball.svg",
+    icon: "/assets/img/icon/tutor/smart-icon-2.svg",
+
     delay: ".7s",
     items: [
       "Improved workflow",
@@ -32,7 +32,8 @@ const activities = [
   {
     id: 4,
     title: "Customised Training Programs",
-    icon: "/assets/img/campus/campus/ball.svg",
+    icon: "/assets/img/icon/tutor/smart-icon-2.svg",
+
     delay: ".7s",
     items: [
       "Tailored to your organisation",
@@ -56,7 +57,7 @@ export default function CampusActivityArea() {
           </div>
 
           {activities.map((activity, index) => (
-            <div className="col-lg-6 col-md-6" key={index}>
+            <div className="col-lg-6 col-md-6 mb-20"  key={index}>
               <div
                 className={`tp-campus-activity-content wow fadeInUp`}
                 data-wow-delay={activity.delay}
@@ -66,8 +67,8 @@ export default function CampusActivityArea() {
                     <Image
                       src={activity.icon}
                       alt="Activity Icon"
-                      width={37}
-                      height={36}
+                      width={60}
+                      height={60}
                     />
                   </span>
                   {activity.title}
@@ -76,10 +77,10 @@ export default function CampusActivityArea() {
                   <ul>
                     {activity.items.map((item, itemIndex) => (
                       <li key={itemIndex}>
-                        <a href="#">
+                        <a >
                           {item}{" "}
                           <span>
-                            <UpArrowTwo />
+                            {/* <UpArrowTwo /> */}
                           </span>
                         </a>
                       </li>

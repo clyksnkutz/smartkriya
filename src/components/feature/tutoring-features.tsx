@@ -18,7 +18,7 @@ const tutorFeatures = [
   },
   {
     id: 4,
-    title: "Fractical Learning",
+    title: "Practical Learning",
     description: "Real-world scenarios, not just theory.",
   },
 ];
@@ -44,7 +44,7 @@ export default function TutoringFeatures() {
                 <div className="tp-tutor-icon">
                   <span>
                     <Image
-                      src="/assets/img/icon/tutor/tutor-icon-2.svg"
+                      src="/assets/img/icon/tutor/smart-icon.svg"
                       alt={feature.title}
                       width={42}
                       height={30}
@@ -55,7 +55,7 @@ export default function TutoringFeatures() {
                   <h4 className="tp-tutor-title">
                     <a href="#">{feature.title}</a>
                   </h4>
-                  <p>{feature.description}</p>
+                  {/* <p>{feature.description}</p> */}
                 </div>
               </div>
             </div>

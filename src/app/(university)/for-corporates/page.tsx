@@ -1,7 +1,6 @@
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import CampusActivityArea from "@/components/campus/campus-activity-area";
 import CampusChooseAreaTwo from "@/components/campus/campus-choose-area-2";
-import CampusStudentArea from "@/components/campus/campus-student-area";
 import CtaTwo from "@/components/cta/cta-two";
 import { Metadata } from "next";
 import FinancialAidArea from "../university-financial/_components/financial-aid-area";
@@ -17,7 +16,7 @@ export default function UniversityCampusPage() {
       <BreadcrumbTwo title="Corporates" subtitle="For" />
       {/* breadcrumb area end */}
 
-      <CampusStudentArea/>
+      {/* <CampusStudentArea/> */}
       <CampusChooseAreaTwo />
 
       <CampusActivityArea/>

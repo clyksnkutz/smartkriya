@@ -32,12 +32,16 @@ const financialAidData = [
 
 export default function FinancialAidArea() {
   return (
-    <section className="tp-financial-area tp-financial-bg pt-90 pb-90">
+    <section className="pt-90 pb-90">
       <div className="container">
         <div className="row">
+  
           <div className="col-lg-12">
-            <div className="tp-financial-heading">
-              <h3 className="tp-financial-title">Our Corporate Offering</h3>
+            <div className="tp-campus-activity-heading mb-70">
+              <h3 className="tp-campus-activity-title">
+                Our corporate Offering
+                {" "}
+              </h3>
             </div>
           </div>
 
