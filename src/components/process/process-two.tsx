@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 const applicationProcess = [
     {
@@ -58,11 +57,11 @@ export default function ProcessTwo() {
                 </h4>
                 <p dangerouslySetInnerHTML={{ __html: step.description }}></p>
 
-                {step.linkText && step.linkHref && (
+                {/* {step.linkText && step.linkHref && (
                   <Link className="tp-btn mt-0" href={step.linkHref}>
                     {step.linkText}
                   </Link>
-                )}
+                )} */}
               </div>
             ))}
 
