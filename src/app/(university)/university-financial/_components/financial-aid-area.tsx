@@ -41,25 +41,26 @@ export default function FinancialAidArea() {
             </div>
           </div>
 
-          {financialAidData.map((item) => (
-            <div key={item.id} className="col-lg-3 col-md-6">
-              <div className="tp-financial-item mb-30">
-                <div className="tp-financial-thumb">
-                  <span
-                    // src={item.imgSrc}
-                    // alt={item.title}
-                    width={382}
-                    height={219}
-                    style={{ height: "auto" }}
-                  />
-                </div>
-                <div className="tp-financial-content">
-                  <h4 className="tp-financial-content-title">{item.title}</h4>
-                  {/* <p>{item.description}</p> */}
+          {financialAidData.map((item) => {
+            return (
+              <div key={item.id} className="col-lg-3 col-md-6">
+                <div className="tp-financial-item mb-30">
+                  <div className="tp-financial-thumb">
+                    <span
+                      // src={item.imgSrc}
+                      // alt={item.title}
+                      // width={382}
+                      // height={219}
+                      style={{ height: "auto" }} />
+                  </div>
+                  <div className="tp-financial-content">
+                    <h4 className="tp-financial-content-title">{item.title}</h4>
+                    {/* <p>{item.description}</p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
