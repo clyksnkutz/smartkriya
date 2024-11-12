@@ -22,6 +22,20 @@ export default function FooterTwo() {
                            <div className="tp-footer-widget-content">
                               <p>At SmartKriya, we turn potential into performance. Our industry-aligned training programs prepare students for the jobs of today and the careers of tomorrow.</p>
                            </div>
+                           {/* <div className="tp-footer-contact">
+                              <div className="tp-footer-btn ">
+                                 <Link className="tp-btn-round " href="/contact">Contact Us
+                                    <span>
+                                       <RightArrowFour />
+                                    </span>
+                                 </Link>
+                              </div>
+                           </div> */}
+                        </div>
+                     </div>
+                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <div className="tp-footer-widget tp-footer-2-col-2 mb-30">
+                           <h4 className="tp-footer-widget-title mb-15">Got Questions</h4>
                            <div className="tp-footer-contact">
                               <div className="tp-footer-btn ">
                                  <Link className="tp-btn-round " href="/contact">Contact Us
@@ -31,12 +45,7 @@ export default function FooterTwo() {
                                  </Link>
                               </div>
                            </div>
-                        </div>
-                     </div>
-                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div className="tp-footer-widget tp-footer-2-col-2 mb-30">
-                           <h4 className="tp-footer-widget-title mb-15">About</h4>
-                           <div className="tp-footer-widget-link">
+                           {/* <div className="tp-footer-widget-link">
                               <ul>
                                  {footerLinks.link_one.map((link) => (
                                     <li key={link.id}>
@@ -44,7 +53,7 @@ export default function FooterTwo() {
                                     </li>
                                  ))}
                               </ul>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
@@ -65,7 +74,8 @@ export default function FooterTwo() {
                         <div className="p-footer-widget tp-footer-2-col-4 mb-30">
                            {/* <h4 className="tp-footer-widget-title mb-20">Our Newsletter</h4> */}
                            <div className="tp-footer-contact">
-                              <span>Got Questions? Call us</span>
+                           <h4 className="tp-footer-widget-title mb-15">Call us</h4>
+                              {/* <span>Got Questions? Call us</span> */}
                               <a href="tel:012345678">99440 39333</a><br/>
                               <a href="tel:012345678">93644 22111</a>
                            </div>

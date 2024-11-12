@@ -1,7 +1,7 @@
 
 export default function CampusChooseArea() {
   return (
-    <section className="tp-campus-choose-area pt-120 pb-30 grey-bg">
+    <section className="tp-campus-choose-area pt-40 pb-30 grey-bg">
       <div className="container">
         <div className="row">
                     <div className="col-lg-12">
@@ -12,9 +12,9 @@ export default function CampusChooseArea() {
               >
                 <div className="row justify-content-center">
           <div className="col-lg-6">
-            <div className="tp-tutor-section text-center mb-25">
+            <div className="tp-tutor-section text-center mb-40">
               <h3 className="tp-tutor-section-title">
-                Why train with <span> Smartkriya</span>
+                Why train with <span> SmartKriya</span>
               </h3>
             </div>
           </div>
@@ -30,8 +30,9 @@ export default function CampusChooseArea() {
                   Our placement team ensures you get multiple interview opportunities with our corporate partners who are actively looking to hire.
 
                   </h2> */}
-                  <h4>We don't just train you - we connect you directly with employers!
-                  Our training is designed with real job roles in mind. Learn the exact skills top employers are looking for, taught by experts.
+                  <h4>Our training is designed with real job roles in mind.<br/><br/>
+                   Learn the exact skills top employers are looking for.<br/><br/>
+                   We don't just train you - we connect you directly with employers!
 </h4>
                 </div>
               </div>

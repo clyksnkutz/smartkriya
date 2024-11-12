@@ -24,7 +24,7 @@ const financialAidData = [
   {
     id: 4,
     imgSrc: "/assets/img/course/details/financial-thumb-3.jpg",
-    title: "Skill Gap Analysis &amp; Training",
+    title: "Skill Gap Analysis & Training",
     description:
       "Many students have used federal and private loans to fund a quality education that would otherwise be out of reach.",
   },

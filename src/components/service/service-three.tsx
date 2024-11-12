@@ -1,4 +1,6 @@
-import icon_1 from "@/assets/img/icon/tutor/smart-icon-2.svg";
+import icon_2 from "@/assets/img/icon/tutor/curriculum.svg";
+import icon_4 from "@/assets/img/icon/tutor/guidance.svg";
+import icon_1 from "@/assets/img/icon/tutor/placement.svg";
 import Image from "next/image";
 
 const service_data = [
@@ -8,28 +10,29 @@ const service_data = [
     title: "Improved Placement Rates",
     description1: "Enhance your college's reputation",
     description2: "Attract better students",
+    description3: "Attract better students",
   },
   {
     id: 2,
-    icon: icon_1,
+    icon: icon_2,
     title: "Industry-Connected Curriculum",
     description1: "Bridge the academia-industry gap",
     description2: "Real-world skills for students",
   },
   {
     id: 3,
-    icon: icon_1,
+    icon: icon_4,
     title: "Infrastructure Support",
     description1: "Online and offline training ",
     description2: "Digital learning tools",
   },
-  {
-    id: 4,
-    icon: icon_1,
-    title: "Expert Career Guidance",
-    description1: "Professional counsellors",
-    description2: "Industry insights",
-  },
+  // {
+  //   id: 4,
+  //   icon: icon_4,
+  //   title: "Expert Career Guidance",
+  //   description1: "Professional counsellors",
+  //   description2: "Industry insights",
+  // },
 ];
 
 export default function ServiceThree() {
@@ -52,7 +55,7 @@ export default function ServiceThree() {
       <div className="container-fluid">
         <div className="row">
           {service_data.map((item) => (
-            <div key={item.id} className="col-lg-6 col-md-6">
+            <div key={item.id} className="col-lg-4 col-md-6">
               <div className="tp-service-5-item text-center">
                 <div className="tp-service-5-icon">
                   <span >
@@ -65,6 +68,7 @@ export default function ServiceThree() {
                   </h4>
                   <p><li>{item.description1}</li></p>
                   <p><li>{item.description2}</li></p>
+                  {/* <p><li>{item.description3}</li></p> */}
                 </div>
               </div>
             </div>

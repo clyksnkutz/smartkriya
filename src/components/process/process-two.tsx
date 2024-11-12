@@ -14,7 +14,7 @@ const applicationProcess = [
     },
     {
       step: 3,
-      title: "AInteractive Training Sessions",
+      title: "Interactive Training Sessions",
       description: ''
     },
     {

@@ -9,9 +9,9 @@ export const footerLinks = {
         {id:6,title:"Contact",link:'/'},
     ],
     link_two:[
-        {id:1,title:"For Students",link:'/'},
-        {id:2,title:"For Corporate",link:'/'},
-        {id:3,title:"For Colleges",link:'/'},
+        {id:1,title:"For Corporates",link:'/'},
+        {id:2,title:"For Colleges",link:'/'},
+        {id:3,title:"For Students",link:'/'},
         // {id:4,title:"Media Relations",link:'#'},
         // {id:5,title:"Alumni",link:'#'},
         // {id:6,title:"Visit",link:'/university-schedule'},

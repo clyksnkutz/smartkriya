@@ -1,32 +1,33 @@
-import { EmailThree, LocationFour, TelSvgTwo } from "../svg";
+import { EmailThree, TelSvgTwo } from "../svg";
 
 const contactInfoData = [
     {
         icon: <EmailThree />,
-        title: 'Feedbacks',
+        title: 'Feedback',
         description: 'Speak to our Friendly team.',
-        linkText: 'Support@gmail.com',
-        href: 'mailto:Support@gmail.com'
+        linkText: 'admin@smartkriya.com',
+        href: 'mailto:admin@smartkriya.com'
     },
     {
         icon: <TelSvgTwo />,
-        title: 'Call Us',
-        description: 'Mon-Fri from 8am to 5pm',
-        linkText: '+1(555) 000-0000',
-        href: 'tel:+15550000000'
+        title: 'Message us on Whatsapp',
+        description: 'Mon-Sat from 9am to 5pm',
+        linkText: '994403 9333',
+        // href: 'tel:+919944039333'
     },
-    {
-        icon: <LocationFour />,
-        title: 'Visit Us',
-        description: 'Visit our office HQ.',
-        linkText: '77 Robinson Road #33-01',
-        href: '#'
-    }
+    
+    // {
+    //     icon: <LocationFour />,
+    //     title: 'Visit Us',
+    //     description: 'Visit our office HQ.',
+    //     linkText: '77 Robinson Road #33-01',
+    //     href: '#'
+    // }
 ];
 
 export default function ContactInfoArea() {
     return (
-        <section className="tp-contact-info-area tp-contact-p pb-90">
+        <section className="tp-contact-info-area tp-contact-p pb-40">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-10">
@@ -35,7 +36,7 @@ export default function ContactInfoArea() {
                         </div>
                         <div className="row">
                             {contactInfoData.map((item, index) => (
-                                <div key={index} className="col-lg-4 col-md-6">
+                                <div key={index} className="col-lg-6 col-md-6">
                                     <div className="tp-contact-info-item mb-30">
                                         <div className="tp-contact-info-icon">
                                             <span>{item.icon}</span>

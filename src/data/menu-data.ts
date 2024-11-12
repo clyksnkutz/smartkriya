@@ -17,33 +17,6 @@ const menu_data:IMenu[] = [
      },
 	 {
 		id:2,
-		title:'For Students',
-		link:'/for-students',
-		// dropdown_menus:[
-		// 	{ id: 1, title: "Mission & values", link: "/university-mission" },
-		// 	{ id: 2, title: "Undergraduate", link: "/university-program" },
-		// 	{ id: 3, title: "Graduate Program", link: "/university-program" },
-		// 	{ id: 4, title: "Schools", link: "/university-program" },
-		// 	{ id: 5, title: "Online Education", link: "/course-with-filter" },
-		// 	{ id: 6, title: "Off-campus learning", link: "/course-with-filter" },
-		// 	{ id: 7, title: "Faculty", link: "/university-leadership" },
-		// ]
-	 },
-	 {
-		id:3,
-		title:'For Colleges',
-		link:'/for-colleges',
-		// dropdown_menus:[
-		// 	{id:1,title:"Overview", link: "/university-admission-overview" },
-		// 	{id:2,title:"How to Apply", link: "/university-apply" },
-		// 	{id:3,title:"Tuition & Fees", link: "/university-tuition-fees" },
-		// 	{id:4,title:"Financial Aid", link: "/university-financial" },
-		// 	{id:5,title:"Dates & Deadlines", link: "/university-deadlines" },
-		// 	{id:6,title:"Schedule a Tour", link: "/university-schedule" },
-		// ]
-	 },
-	 {
-		id:4,
 		title:'For Corporates',
 		link:'/for-corporates',
 		// pages_dropdown:[
@@ -90,6 +63,35 @@ const menu_data:IMenu[] = [
 		// 	}
 		// ]
 	 },
+
+	 {
+		id:3,
+		title:'For Colleges',
+		link:'/for-colleges',
+		// dropdown_menus:[
+		// 	{id:1,title:"Overview", link: "/university-admission-overview" },
+		// 	{id:2,title:"How to Apply", link: "/university-apply" },
+		// 	{id:3,title:"Tuition & Fees", link: "/university-tuition-fees" },
+		// 	{id:4,title:"Financial Aid", link: "/university-financial" },
+		// 	{id:5,title:"Dates & Deadlines", link: "/university-deadlines" },
+		// 	{id:6,title:"Schedule a Tour", link: "/university-schedule" },
+		// ]
+	 },
+	 {
+		id:4,
+		title:'For Students',
+		link:'/for-students',
+		// dropdown_menus:[
+		// 	{ id: 1, title: "Mission & values", link: "/university-mission" },
+		// 	{ id: 2, title: "Undergraduate", link: "/university-program" },
+		// 	{ id: 3, title: "Graduate Program", link: "/university-program" },
+		// 	{ id: 4, title: "Schools", link: "/university-program" },
+		// 	{ id: 5, title: "Online Education", link: "/course-with-filter" },
+		// 	{ id: 6, title: "Off-campus learning", link: "/course-with-filter" },
+		// 	{ id: 7, title: "Faculty", link: "/university-leadership" },
+		// ]
+	 },
+
 	 {
 		id:5,
 		title:'Contact',

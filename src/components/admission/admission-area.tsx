@@ -5,7 +5,7 @@ import { RightArrowSeven } from "../svg";
 
 export default function AdmissionArea() {
   return (
-    <section className="tp-admission-overview-area grey-bg pb-130">
+    <section className="tp-admission-overview-area grey-bg pb-80">
       <div className="container">
         <div className="row">
         <div
@@ -14,7 +14,7 @@ export default function AdmissionArea() {
             >
                      <div className="row justify-content-center">
           <div className="col-lg-6">
-            <div className="tp-tutor-section text-center mb-100">
+            <div className="tp-tutor-section text-center mt-30 mb-50">
               <h3 className="tp-tutor-section-title">
                 Our Student <span> Program</span>
               </h3>

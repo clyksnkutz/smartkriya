@@ -1,6 +1,8 @@
 'use client';
+import Link from "next/link";
 import { SubmitHandler, useForm } from "react-hook-form";
 import ErrMsg from "../err-msg";
+import { RightArrowFour } from "../svg";
 
 type Inputs = {
     name: string;
@@ -33,7 +35,7 @@ export default function ContactForm() {
                     </div>
                     <div className="col-xl-12 col-lg-12">
                         <div className="tp-contact-input p-relative">
-                            <label>Subject</label>
+                            <label>Topic</label>
                             <input type="text" {...register("subject", { required: "Subject is required" })} name="subject" />
                             {errors.subject?.message && <ErrMsg msg={errors.subject.message} />}
                         </div>
@@ -51,9 +53,15 @@ export default function ContactForm() {
                             <label htmlFor="remeber">Save my name, email, and website in this browser for the next time I comment.</label>
                         </div>
                     </div>
-                    <div className="tp-contact-btn">
-                        <button type="submit" className="tp-btn-inner">Send message</button>
-                    </div>
+                    <div className="tp-footer-contact">
+                              <div className="tp-footer-btn ">
+                                 <Link className="tp-btn-round " href="/contact">Contact Us
+                                    <span>
+                                       <RightArrowFour />
+                                    </span>
+                                 </Link>
+                              </div>
+                           </div>
                 </div>
             </div>
         </form>
