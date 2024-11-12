@@ -1,26 +1,26 @@
+import Link from "next/link";
+import { RightArrowFour } from "../svg";
 
-export default function CtaTwo() {
+export default function CtaCorporates() {
   return (
-    <section className="cta-area tp-cta-2-bg">
+    <section className="cta-area tp-cta-2-bg-green">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-8 col-lg-10">
             <div className="tp-cta-2-wrapper text-center">
               <h2 className="tp-cta-2-title">
-                Get Started With {' '}
-                <span>
-                  SmartKriya
-                  {/* <Image
-                    className="tp-underline-shape-12 wow bounceIn"
-                    data-wow-duration="1.5s"
-                    data-wow-delay=".4s"
-                    src={shape_underline}
-                    alt="shape-underline"
-                  /> */}
-                </span>
-                Now{" "}
+              Build Your Future Workforce{' '}
+
               </h2>
-              <p>Your Bridge from Campus to Successful Careers</p>
+              <div className="tp-footer-contact">
+                              <div className="tp-footer-btn ">
+                                 <Link className="tp-btn-round-2 " href="/contact">Contact Us
+                                    <span>
+                                       <RightArrowFour />
+                                    </span>
+                                 </Link>
+                              </div>
+                           </div>
               {/* <div className="tp-cta-2-form">
                 <form action="#">
                   <span>

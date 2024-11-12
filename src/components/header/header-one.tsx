@@ -2,7 +2,6 @@ import logo from "@/assets/img/logo/logo-big.png";
 import Image from "next/image";
 import Link from "next/link";
 import HeaderStickyWrapper from "./header-sticky-provider/header-sticky-wrapper";
-import HeaderTopArea from "./header-top/header-top-area";
 import NavMenus from "./navbar/nav-menus";
 
 export default function HeaderOne() {
@@ -11,7 +10,7 @@ export default function HeaderOne() {
       <header className="header-area tp-header-transparent p-relative">
          
         {/* header top start*/}
-         <HeaderTopArea />
+         {/* <HeaderTopArea /> */}
         {/* header top end */}
 
         <HeaderStickyWrapper>

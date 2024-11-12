@@ -91,7 +91,7 @@ export default function ProgramArea() {
                 <div className="col-md-9 ">
                   <div className="tp-event-content ">
                     <h3 className="tp-event-title " >
-                    - Empowering students with not just technical skills, but also critical thinking, problem-solving and adaptability skills
+                    - Empowering students with not just technical skills but also problem-solving and adaptability skills
                     </h3>
                   </div>
                 </div>

@@ -14,12 +14,12 @@ const heroSliderData = [
   {
     id: 2,
     subtitle: "Your bridge to",
-    title: "Your Future Work force.",
+    title: "Your Future Work force",
     bgImg: "/assets/img/hero/bg2.jpeg",
   },
   {
     id: 3,
-    subtitle: "We turn potential.",
+    subtitle: "We turn potential",
     title: " into performance.",
     bgImg: "/assets/img/hero/bg3.jpeg",
   },

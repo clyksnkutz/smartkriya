@@ -2,7 +2,7 @@
 
 export default function CampusChooseAreaTwo() {
   return (
-    <section className="tp-campus-choose-area mt--240 pb-0 grey-bg">
+    <section className="tp-campus-choose-area mt-40 pb-0 ">
          <div className="container">
             <div className="row">
                <div className="col-lg-12">

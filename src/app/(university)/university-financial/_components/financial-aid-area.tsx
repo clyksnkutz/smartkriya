@@ -32,7 +32,7 @@ const financialAidData = [
 
 export default function FinancialAidArea() {
   return (
-    <section className="pt-90 pb-90">
+    <section className="pt-0 pb-90 grey-bg">
       <div className="container">
         <div className="row">
   

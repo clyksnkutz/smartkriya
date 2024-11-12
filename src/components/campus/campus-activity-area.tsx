@@ -3,14 +3,14 @@ import Image from "next/image";
 const activities = [
   {
     id: 1,
-    title: "Ready-to-Deploy Talent",
+    title: "Understanding Your Needs",
     icon: "/assets/img/icon/tutor/smart-icon-2.svg",
     delay: ".3s",
     items: ["Trained to your requirements", "Access to a pool of job ready candidates",],
   },
   {
     id: 2,
-    title: "Cost-Effective Recruitment",
+    title: "Customising Programs",
     icon: "/assets/img/icon/tutor/smart-icon-2.svg",
     delay: ".5s",
     items: [
@@ -20,7 +20,7 @@ const activities = [
   },
   {
     id: 3,
-    title: "Increased productivity",
+    title: "Implementing Training",
     icon: "/assets/img/icon/tutor/smart-icon-2.svg",
 
     delay: ".7s",
@@ -31,7 +31,7 @@ const activities = [
   },
   {
     id: 4,
-    title: "Customised Training Programs",
+    title: "Placement completion",
     icon: "/assets/img/icon/tutor/smart-icon-2.svg",
 
     delay: ".7s",
@@ -44,25 +44,25 @@ const activities = [
 
 export default function CampusActivityArea() {
   return (
-    <section className="tp-campus-activity-area grey-bg pt-80 pb-100">
+    <section className="tp-campus-activity-area  pt-0 pb-100">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="tp-campus-activity-heading mb-70">
               <h3 className="tp-campus-activity-title">
-                Why partner with us
+                Our corporate training process
                 {" "}
               </h3>
             </div>
           </div>
 
           {activities.map((activity, index) => (
-            <div className="col-lg-6 col-md-6 mb-20"  key={index}>
+            <div className="col-lg-6 col-md-6 mb-40"  key={index}>
               <div
                 className={`tp-campus-activity-content wow fadeInUp`}
                 data-wow-delay={activity.delay}
               >
-                <h4 className="tp-campus-activity-list-title">
+                <h4 className="tp-campus-activity-list-title pt-10">
                   <span>
                     <Image
                       src={activity.icon}
@@ -73,20 +73,7 @@ export default function CampusActivityArea() {
                   </span>
                   {activity.title}
                 </h4>
-                <div className="tp-campus-activity-list">
-                  <ul>
-                    {activity.items.map((item, itemIndex) => (
-                      <li key={itemIndex}>
-                        <a >
-                          {item}{" "}
-                          <span>
-                            {/* <UpArrowTwo /> */}
-                          </span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+   
               </div>
             </div>
           ))}

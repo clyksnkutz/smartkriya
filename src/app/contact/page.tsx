@@ -1,9 +1,9 @@
-import { Metadata } from "next";
 import ContactArea from "@/components/contact/contact-area";
 import ContactInfoArea from "@/components/contact/contact-info-area";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact - Acadia",
+    title: "Contact Us",
 };
 
 export default function ContactPage() {
