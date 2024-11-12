@@ -74,7 +74,7 @@ export default function FooterTwo() {
                         <div className="p-footer-widget tp-footer-2-col-4 mb-30">
                            {/* <h4 className="tp-footer-widget-title mb-20">Our Newsletter</h4> */}
                            <div className="tp-footer-contact">
-                           <h4 className="tp-footer-widget-title mb-15">Call us</h4>
+                           <h4 className="tp-footer-widget-title mb-15">Message us</h4>
                               {/* <span>Got Questions? Call us</span> */}
                               <a href="tel:012345678">99440 39333</a><br/>
                               <a href="tel:012345678">93644 22111</a>

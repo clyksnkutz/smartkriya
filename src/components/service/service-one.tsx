@@ -14,7 +14,7 @@ const service_data = [
     id: 1,
     icon: ser_icon_1,
     title: "For Corporates",
-    text: "Ready-to-deploy talent to your future work force",
+    text: "Ready-to-deploy talent for your future work force",
     link:"/for-corporates",
   },
   {

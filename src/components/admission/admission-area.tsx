@@ -74,6 +74,7 @@ export default function AdmissionArea() {
                  <h2> 3. Office Administration</h2>
                   - MS-Office Knowledge<br/>
                   - Written Communication Skills<br/>
+                  - Team Coordination<br/>
                   - AI Prompt Skills 
 
               </p>

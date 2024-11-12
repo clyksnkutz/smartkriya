@@ -30,8 +30,8 @@ export default function CampusChooseArea() {
                   Our placement team ensures you get multiple interview opportunities with our corporate partners who are actively looking to hire.
 
                   </h2> */}
-                  <h4>Our training is designed with real job roles in mind.<br/><br/>
-                   Learn the exact skills top employers are looking for.<br/><br/>
+                  <h4>Our training is designed with real job roles in mind<br/><br/>
+                   Learn the exact skills top employers are looking for<br/><br/>
                    We don't just train you - we connect you directly with employers!
 </h4>
                 </div>

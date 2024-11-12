@@ -46,7 +46,7 @@ export default function AboutOneApproach() {
                   />  */}
                   </span>
                         </h3>
-                        <h4>Customised curriculum aligned with industry needs with hands-on, practical training methodologies that focus on four key areas</h4>
+                        <h4>Customised curriculum aligned with industry needs with hands-on practical training methodologies that focus on four key areas</h4>
                     </div>
 
                     </div>
