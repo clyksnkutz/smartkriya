@@ -1,6 +1,7 @@
 import logo from "@/assets/img/logo/logo-big.png";
 import Image from "next/image";
 import Link from "next/link";
+import OffcanvasButton from "./button/offcanvas-btn";
 import HeaderStickyWrapper from "./header-sticky-provider/header-sticky-wrapper";
 import NavMenus from "./navbar/nav-menus";
 
@@ -36,19 +37,19 @@ export default function HeaderOne() {
                   {/* nav menus end */}
                 </div>
               </div>
-              {/* <div className="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-6">
+              <div className="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-4">
                 <div className="tp-header-contact d-flex align-items-center justify-content-end">
-                  <div className="tp-header-serach">
+                  {/* <div className="tp-header-serach">
                     <SearchButton icon={<SearchSvg />} />
-                  </div>
-                  <div className="tp-header-btn d-none d-md-block ml-30">
+                  </div> */}
+                  {/* <div className="tp-header-btn d-none d-md-block ml-30">
                     <Link href="/university-application-form">Apply Now</Link>
-                  </div>
+                  </div> */}
                   <div className="tp-header-bar d-xl-none ml-30">
                     <OffcanvasButton/>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </HeaderStickyWrapper>
