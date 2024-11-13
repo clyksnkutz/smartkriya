@@ -4,19 +4,12 @@ export default function CtaTwo() {
     <section className="cta-area tp-cta-2-bg">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xxl-8 col-lg-10">
+          <div className="col-xxl-12 col-lg-12">
             <div className="tp-cta-2-wrapper text-center">
               <h2 className="tp-cta-2-title">
-                Get Started With {' '}
+                Get Started With {''}
                 <span className="">
                   SmartKriya &#174;
-                  {/* <Image
-                    className="tp-underline-shape-12 wow bounceIn"
-                    data-wow-duration="1.5s"
-                    data-wow-delay=".4s"
-                    src={shape_underline}
-                    alt="shape-underline"
-                  /> */}
                 </span>
                 Now{" "}
               </h2>
