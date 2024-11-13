@@ -96,13 +96,11 @@
                 font-size: 44px;
             }
             & span {
-                
                 color: #73C4BF;
                 font-size: 60px;
                 display: inline-block;
                 position: relative;
                 font-weight: 700;
-                font-family: 'Quantify', sans-serif;;
                 
                 // -webkit-text-stroke: 1px;
                 // -webkit-text-stroke-color: white;
@@ -602,8 +600,8 @@
             position: absolute;
             top: 0;
             left: 0;
-            height: 100%;
-            width: 100%;
+            height: 80%;
+            width: 80%;
             z-index: -2;
             opacity: 0;
             visibility: hidden;
@@ -614,7 +612,7 @@
         }
         &-wrap {
             position: relative;
-            z-index: -1;
+            z-index: 1;
             padding: 175px 0;
             @media #{$md} {
                 padding: 150px 0;

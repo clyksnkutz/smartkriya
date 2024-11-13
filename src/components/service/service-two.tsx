@@ -23,7 +23,7 @@ const servicesData = [
       id: 3,
       title: "Placement Partnership",
       description1: "Job fairs",
-      description2: "Direct corporate connects",
+      description2: "Direct corporate connect",
       iconActive: "/assets/img/icon/service/services-3-icon-2.svg",
       iconHover: "/assets/img/icon/service/services-3-hover-2.svg",
    },

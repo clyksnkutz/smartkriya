@@ -12,7 +12,7 @@ const contactInfoData = [
         icon: <TelSvgTwo />,
         title: 'Message us on Whatsapp',
         description: 'Mon-Sat from 9am to 5pm',
-        linkText: '994403 9333',
+        linkText: '99440 39333, 93644 22111',
         // href: 'tel:+919944039333'
     },
     

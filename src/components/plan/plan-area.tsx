@@ -7,7 +7,7 @@ const planData = [
       id: 1,
       title: "Partnership Discussion",
       description: "Meet with us",
-      image: "/assets/img/bg/plan/partnership.jpg",
+      image: "/assets/img/bg/plan/partnership2.jpg",
       link: "/",
    },
    {
@@ -21,21 +21,21 @@ const planData = [
       id: 3,
       title: "Customised Program Design",
       description: "Create and customize",
-      image: "/assets/img/bg/plan/implement2.jpg",
+      image: "/assets/img/bg/plan/customize2.jpg",
       link: "/",
    },   
    {
       id: 4,
       title: "Implementation",
       description: "Implement and Invoke",
-      image: "/assets/img/bg/plan/implement2.jpg",
+      image: "/assets/img/bg/plan/implementation.jpg",
       link: "/",
    },
    {
       id: 5,
       title: "Ongoing Support & Evaluation",
       description: "Support and evaluvate",
-      image: "/assets/img/bg/plan/support.jpg",
+      image: "/assets/img/bg/plan/support2.jpg",
       link: "/",
    },
 ];

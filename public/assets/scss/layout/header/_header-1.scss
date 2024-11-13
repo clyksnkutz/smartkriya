@@ -48,6 +48,9 @@
             }
         }
         & .tp-header-sticky{
+            & .index{
+                z-index: 3;
+            }
             & .tp-megamenu{
                 &-container{
                     border-radius: 0px 0px 8px 8px;

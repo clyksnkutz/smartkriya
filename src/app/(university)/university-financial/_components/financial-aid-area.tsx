@@ -46,7 +46,7 @@ export default function FinancialAidArea() {
           </div> */}
                       <div className="tp-tutor-section text-center mb-40">
               <h3 className="tp-tutor-section-title">
-                Why corporate <span> offering</span>
+                What we <span> offer</span>
               </h3>
             </div>
 
