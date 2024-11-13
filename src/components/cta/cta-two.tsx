@@ -1,4 +1,5 @@
 
+
 export default function CtaTwo() {
   return (
     <section className="cta-area tp-cta-2-bg">
@@ -8,10 +9,10 @@ export default function CtaTwo() {
             <div className="tp-cta-2-wrapper text-center">
               <h2 className="tp-cta-2-title">
                 Get Started With {''}
-                <span className="">
-                  SmartKriya &#174;
-                </span>
-                Now{" "}
+                {/* <span> */}
+                  SmartKriya Now
+                {/* </span> */}
+                  {/* Now{" "} */}
               </h2>
               <p>Your Bridge from Campus to Successful Careers</p>
               {/* <div className="tp-cta-2-form">

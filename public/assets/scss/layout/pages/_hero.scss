@@ -45,7 +45,7 @@
         }
     }
     &-subtitle {
-        // @extend %tp-ff-secondary;
+        // @extend %tp-ff-logo;
         color: var(--tp-common-white);
         font-size: 35px;
         // font-style: italic;
@@ -499,5 +499,13 @@
                 }
             }
         }
+    }
+    .logotext {
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(to right, #3f5EFB, #FC466B);
+        // -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      font-size: 2rem;
     }
 }

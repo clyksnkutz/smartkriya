@@ -1,7 +1,11 @@
 'use client';
+import localFont from "next/font/local";
 import { EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
+
+
+const myFont = localFont({ src: '../../../public/assets/fonts/Quantify.ttf' })
 
 // 
 const heroSliderData = [
@@ -54,6 +58,7 @@ export default function HeroAreaOne() {
                       <h2 className="tp-hero-title">
                         {item.title}
                       </h2>
+                      
                       {/* <div className="tp-hero-btn">
                         <Link className="tp-btn" href="/">
                           Learn More

@@ -46,7 +46,7 @@ export default function ServiceThree() {
                      {/* <h2 className="tp-about-4-head" >Why choose SmartKriya&reg;</h2> */}
                      {/* <div className="tp-tutor-section text-center mb-40"> */}
               <h2 className="tp-tutor-section-title">
-                Why choose <span> SmartKriya&reg;</span>
+                Why choose <span> SmartKriya</span>
               </h2>
             {/* </div> */}
                   </div>

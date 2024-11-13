@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { Crimson_Pro, Jost, Outfit } from 'next/font/google';
 import "./globals.scss";
-import {Outfit,Jost,Crimson_Pro} from 'next/font/google';
+
 
 
 const outfit_bold = Outfit({
@@ -31,8 +32,8 @@ const crismon_secondary = Crimson_Pro({
 
 
 export const metadata: Metadata = {
-  title: "Acadia - University & Online Course Next js Template",
-  description: "Acadia – template is perfect for a variety of educational needs, including e-Learning, Course Schools, Online Schools, Kindergartens, Classic LMS setups, University Status pages, Instructor Portfolios, Language Academies, Gym Coaching, Online Courses, Single Courses, marketplaces, University Classics, Elegant Homepages, Technology-focused Homepages, and more",
+  title: "Smartkriya",
+  description: "Transforming today's students into tomorrow's professionals. SmartKriya is committed to bridging the gap between academic education and industry needs",
 };
 
 export default function RootLayout({

@@ -14,7 +14,7 @@ export default function CampusChooseArea() {
           <div className="col-lg-6">
             <div className="tp-tutor-section text-center mb-40">
               <h3 className="tp-tutor-section-title">
-                Why train with <span> SmartKriya&reg;</span>
+                Why train with <span> SmartKriya</span>
               </h3>
             </div>
           </div>

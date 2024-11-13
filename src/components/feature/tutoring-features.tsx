@@ -31,7 +31,7 @@ export default function TutoringFeatures() {
           <div className="col-lg-6">
             <div className="tp-tutor-section text-center mb-100">
               <h3 className="tp-tutor-section-title">
-                Why Choose <span> Smartkriya &#174;</span>
+                Why Choose <span> Smartkriya</span>
               </h3>
             </div>
           </div>
