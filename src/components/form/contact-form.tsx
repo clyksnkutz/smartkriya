@@ -47,12 +47,12 @@ export default function ContactForm() {
                             {errors.message?.message && <ErrMsg msg={errors.message.message} />}
                         </div>
                     </div>
-                    <div className="col-xl-12">
+                    {/* <div className="col-xl-12">
                         <div className="tp-contact-input-remeber">
                             <input id="remeber" type="checkbox" />
                             <label htmlFor="remeber">Save my name, email, and website in this browser for the next time I comment.</label>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="tp-footer-contact">
                               <div className="tp-footer-btn ">
                                  <Link className="tp-btn-round " href="/contact">Contact Us

@@ -562,6 +562,16 @@
         @media #{$md,$sm,$xs} {
             font-size: 42px;
         }
+        & span {
+            position: relative;
+            color: var(--tp-theme-primary);
+            & svg{
+                position: absolute;
+                bottom: -6px;
+                right: 10px;
+                z-index: 0;
+            }
+        }
     }
     &-wrapper{
         @media #{$xs} {

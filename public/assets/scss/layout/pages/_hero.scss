@@ -45,13 +45,14 @@
         }
     }
     &-subtitle {
-        @extend %tp-ff-secondary;
+        // @extend %tp-ff-secondary;
         color: var(--tp-common-white);
-        font-size: 22px;
-        font-style: italic;
+        font-size: 35px;
+        // font-style: italic;
         font-weight: 400;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         display: inline-block;
+        
     }
     &-title {
         color: var(--tp-common-white);

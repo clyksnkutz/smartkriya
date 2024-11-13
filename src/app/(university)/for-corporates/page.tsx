@@ -2,7 +2,6 @@ import WhyPartner from "@/app/(pages)/become-instructor/_components/why-parther-
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import CampusActivityArea from "@/components/campus/campus-activity-area";
 import CampusChooseAreaTwo from "@/components/campus/campus-choose-area-2";
-import CtaCorporates from "@/components/cta/cta-corporates";
 import { Metadata } from "next";
 import FinancialAidArea from "../university-financial/_components/financial-aid-area";
 
@@ -47,7 +46,7 @@ export default function UniversityCampusPage() {
       {/* <CampusLifeArea/> */}
       {/* campus life area end */}
       {/* <CtaTwo/> */}
-      <CtaCorporates/>
+      {/* <CtaCorporates/> */}
     </main>
   );
 }

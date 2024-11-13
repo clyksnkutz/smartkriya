@@ -31,7 +31,7 @@ export default function TutoringFeatures() {
           <div className="col-lg-6">
             <div className="tp-tutor-section text-center mb-100">
               <h3 className="tp-tutor-section-title">
-                Why Choose <span> Smartkriya</span>
+                Why Choose <span> Smartkriya &#174;</span>
               </h3>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function TutoringFeatures() {
                 <div className="tp-tutor-icon">
                   <span>
                     <Image
-                      src="/assets/img/icon/tutor/smart-icon.svg"
+                      src="/assets/img/icon/tutor/smart-icon-2.svg"
                       alt={feature.title}
                       width={42}
                       height={30}
@@ -53,7 +53,7 @@ export default function TutoringFeatures() {
                 </div>
                 <div className="tp-tutor-content">
                   <h4 className="tp-tutor-title">
-                    <a href="#">{feature.title}</a>
+                    <a>{feature.title}</a>
                   </h4>
                   {/* <p>{feature.description}</p> */}
                 </div>

@@ -15,7 +15,7 @@ export default function CampusChooseAreaTwo() {
                         </a>
                      </div> */}
                      <div className="tp-campus-choose-content mb-10 wow fadeInUp" data-wow-delay=".5s">
-                        <h2 className="tp-campus-choose-title">Partner with <span className="tp-cta-2-title-2">SmartKriya</span>  now</h2> 
+                        <h2 className="tp-campus-choose-title">Partner with <span className="tp-cta-2-title-2">SmartKriya&reg;</span>  now</h2> 
                         <h2 className="tp-campus-choose-title">The Bridge to your Future Workforce</h2>
                         {/* <Link className="tp-btn" href="/">Why Choose Acadia </Link> */}
                      </div>

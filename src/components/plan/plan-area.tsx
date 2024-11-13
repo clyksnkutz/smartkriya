@@ -47,7 +47,7 @@ export default function PlanArea() {
          <div className="container">
             <div className="row">
                {/* <div className="col-lg-3"> */}
-                  <div className="tp-plan-4-section">
+                  <div className="tp-plan-4-section text-center mb-20">
                      {/* <span>Visit S!</span> */}
                      <h3 className="tp-plan-4-section-title">How It Works</h3>
                   {/* </div> */}

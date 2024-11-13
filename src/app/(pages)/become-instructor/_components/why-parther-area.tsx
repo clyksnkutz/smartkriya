@@ -69,9 +69,14 @@ export default function WhyPartner() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="tp-instructor-title-wrap text-center mb-40 wow fadeInUp" data-wow-delay=".3s">
+            {/* <div className="tp-instructor-title-wrap text-center mb-40 wow fadeInUp" data-wow-delay=".3s">
               <h3 className="tp-instructor-main-title">
                 Why Partner with us
+              </h3>
+            </div> */}
+                        <div className="tp-tutor-section text-center mb-40">
+              <h3 className="tp-tutor-section-title">
+                Why  <span> partner</span> with us
               </h3>
             </div>
             <div className="tp-instructor-become-tab pb-80 wow fadeInUp" data-wow-delay=".5s">

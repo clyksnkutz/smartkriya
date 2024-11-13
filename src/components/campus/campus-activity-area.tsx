@@ -48,10 +48,15 @@ export default function CampusActivityArea() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="tp-campus-activity-heading mb-70">
+            {/* <div className="tp-campus-activity-heading mb-70">
               <h3 className="tp-campus-activity-title">
                 Our corporate training process
                 {" "}
+              </h3>
+            </div> */}
+                        <div className="tp-tutor-section text-center mb-40">
+              <h3 className="tp-tutor-section-title">
+                Our corporate<span> training</span>  process
               </h3>
             </div>
           </div>

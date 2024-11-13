@@ -42,8 +42,13 @@ export default function ServiceThree() {
         <div className="container">
             <div className="row">
                <div className="col-12">
-                  <div className="tp-about-4-wrapper wow fadeInUp" data-wow-delay=".3s">
-                     <h2 className="tp-about-4-head" >Why choose SmartKriya</h2>
+                  <div className="tp-about-4-wrapper wow fadeInUp mt-20 text-center" data-wow-delay=".3s">
+                     {/* <h2 className="tp-about-4-head" >Why choose SmartKriya&reg;</h2> */}
+                     {/* <div className="tp-tutor-section text-center mb-40"> */}
+              <h2 className="tp-tutor-section-title">
+                Why choose <span> SmartKriya&reg;</span>
+              </h2>
+            {/* </div> */}
                   </div>
                </div>
             </div>

@@ -96,11 +96,14 @@
                 font-size: 44px;
             }
             & span {
-                color: #FFC221;
+                color: #73C4BF;
                 font-size: 60px;
                 display: inline-block;
                 position: relative;
                 font-weight: 700;
+                
+                // -webkit-text-stroke: 1px;
+                // -webkit-text-stroke-color: white;
             }
         }
         &-wrapper {
@@ -609,7 +612,7 @@
         }
         &-wrap {
             position: relative;
-            z-index: 2;
+            z-index: -1;
             padding: 175px 0;
             @media #{$md} {
                 padding: 150px 0;

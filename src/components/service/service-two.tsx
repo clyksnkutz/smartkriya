@@ -37,7 +37,10 @@ export default function ServiceTwo() {
             <div className="row justify-content-center">
                <div className="col-xl-8 col-lg-10">
                   <div className="tp-section p-relative mb-45 text-center">
-                     <h4 className="tp-section-title-white">Our College Partnership Model</h4>
+                     <h2 className="tp-section-title-white">Our College <span>Partnership</span> Model</h2>
+                     {/* <h2 className="tp-tutor-section-title">
+                Our college <span> partnership</span> model
+              </h2> */}
                      <div className="tp-service-3-heading">
                         {/* <Image src={heading_shape} alt="heading-shape" /> */}
                      </div>

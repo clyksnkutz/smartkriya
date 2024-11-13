@@ -8,8 +8,8 @@ export default function CtaTwo() {
             <div className="tp-cta-2-wrapper text-center">
               <h2 className="tp-cta-2-title">
                 Get Started With {' '}
-                <span>
-                  SmartKriya
+                <span className="">
+                  SmartKriya &#174;
                   {/* <Image
                     className="tp-underline-shape-12 wow bounceIn"
                     data-wow-duration="1.5s"

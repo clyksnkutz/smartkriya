@@ -21,7 +21,7 @@ export default function AboutTwo({spacing='pt-115 pb-90'}:IProps) {
             <div className="row">
                <div className="col-12">
                   <div className="tp-about-4-wrapper mb-75 wow fadeInUp" data-wow-delay=".3s">
-                     <h2 className="tp-about-4-head">At SmartKriya, we turn potential into performance. Our industry-aligned training programs prepare students for the jobs of today and the careers of tomorrow.</h2>
+                     <h2 className="tp-about-4-head">At <span>SmartKriya&reg;,</span> we turn potential into performance. Our industry-aligned training programs prepare students for the jobs of today and the careers of tomorrow.</h2>
                      <div className="tp-about-4-btn wow fadeInUp" data-wow-delay=".5s">
                         {/* <Link className="tp-btn-3" href="/"> Choose Smartkriya</Link> */}
                         {/* <div className="tp-about-4-video">
