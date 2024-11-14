@@ -4,7 +4,7 @@ const contactInfoData = [
     {
         icon: <EmailThree />,
         title: 'Feedback',
-        description: 'Speak to our friendly team.',
+        description: 'Speak to our friendly team',
         linkText: 'admin@smartkriya.com',
         href: 'mailto:admin@smartkriya.com'
     },
