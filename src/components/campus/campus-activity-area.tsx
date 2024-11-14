@@ -31,7 +31,7 @@ const activities = [
   },
   {
     id: 4,
-    title: "Placement completion",
+    title: "Placement Completion",
     icon: "/assets/img/icon/tutor/smart-icon-2.svg",
 
     delay: ".7s",

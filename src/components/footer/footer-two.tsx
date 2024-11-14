@@ -35,7 +35,7 @@ export default function FooterTwo() {
                      </div>
                      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div className="tp-footer-widget tp-footer-2-col-2 mb-30">
-                           <h4 className="tp-footer-widget-title mb-15">Got Questions</h4>
+                           {/* <h4 className="tp-footer-widget-title mb-15">Got Questions</h4> */}
                            <div className="tp-footer-contact">
                               <div className="tp-footer-btn ">
                                  <Link className="tp-btn-round " href="/contact">Contact Us

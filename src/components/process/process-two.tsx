@@ -19,7 +19,7 @@ const applicationProcess = [
     },
     {
       step: 4,
-      title: "Real world case studies",
+      title: "Real World Case Studies",
       description: ''
     },
     {

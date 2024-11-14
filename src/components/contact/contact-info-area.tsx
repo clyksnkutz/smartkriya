@@ -4,13 +4,13 @@ const contactInfoData = [
     {
         icon: <EmailThree />,
         title: 'Feedback',
-        description: 'Speak to our Friendly team.',
+        description: 'Speak to our friendly team.',
         linkText: 'admin@smartkriya.com',
         href: 'mailto:admin@smartkriya.com'
     },
     {
         icon: <TelSvgTwo />,
-        title: 'Message us on Whatsapp',
+        title: 'Message us on WhatsApp',
         description: 'Mon-Sat from 9am to 5pm',
         linkText: '99440 39333, 93644 22111',
         // href: 'tel:+919944039333'

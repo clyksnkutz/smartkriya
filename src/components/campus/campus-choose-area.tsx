@@ -32,7 +32,7 @@ export default function CampusChooseArea() {
                   </h2> */}
                   <h4>Our training is designed with real job roles in mind<br/><br/>
                    Learn the exact skills top employers are looking for<br/><br/>
-                   We don't just train you - we connect you directly with employers!
+                   We don't just train you - we connect you directly with employers
 </h4>
                 </div>
               </div>
