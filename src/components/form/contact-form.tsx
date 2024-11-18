@@ -1,8 +1,10 @@
 'use client';
 import Link from "next/link";
+import { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import ErrMsg from "../err-msg";
 import { RightArrowFour } from "../svg";
+import emailjs from "emailjs-com";
 
 type Inputs = {
     name: string;
@@ -11,9 +13,13 @@ type Inputs = {
     message: string;
 }
 export default function ContactForm() {
-    const {register,handleSubmit,formState: { errors }} = useForm<Inputs>()
+    const {register,handleSubmit, reset, formState: { errors }} = useForm<Inputs>()
+    const [responseMessage, setResponseMessage] = useState<string>('');
       const onSubmit: SubmitHandler<Inputs> = (data) => {
-       console.log(data)
+       console.log(data);
+      emailjs.send('service_xn9o6c8', 'template_w4v678i', data, 'fJvlrUkxSq20q7xBn')
+      console.log('Success');
+      reset();      
     }
     return (
         <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
@@ -46,6 +52,9 @@ export default function ContactForm() {
                             <textarea {...register("message", { required: "Message is required" })} name="message"></textarea>
                             {errors.message?.message && <ErrMsg msg={errors.message.message} />}
                         </div>
+                    </div>
+                    <div>
+                        <button type="submit">Send Mail</button>
                     </div>
                     {/* <div className="col-xl-12">
                         <div className="tp-contact-input-remeber">
